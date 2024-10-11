@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "background": "#ddd",
+    "background": "#e5e5e5",
     "description": "Trend of Smoking Mortality by Year for a Selected Country",
     "data": {
       "url": "https://raw.githubusercontent.com/ongzn/3179_asgn2/refs/heads/main/data/death-rate-smoking%20new.csv",

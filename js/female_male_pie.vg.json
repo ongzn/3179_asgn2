@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A dynamic pie chart showing tobacco use for males and females by country and year.",
-    "background": "#ddd",
+    "background": "#e5e5e5",
     "data": {
       "url": "https://raw.githubusercontent.com/ongzn/3179_asgn2/refs/heads/main/data/processed_tobacco_use.csv"
     },
