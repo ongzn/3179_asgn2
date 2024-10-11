@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Smoking Mortality Rate by Country (2019)",
+  "background": "#ddd",
   "width": 800,
   "height": 400,
   "projection": {
@@ -46,7 +46,7 @@
           "lookup": "properties.NAME_EN",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/ongzn/FIT3179-Week-9-Homework/main/data/smoking_death_rate.csv"
+              "url": "https://raw.githubusercontent.com/ongzn/3179_asgn2/refs/heads/main/data/smoking_death_rate.csv"
             },
             "key": "Entity",
             "fields": ["Smoking mortality"]
