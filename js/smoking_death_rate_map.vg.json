@@ -59,7 +59,7 @@
           "as": "Mortality per 10k population"
         },
         {
-          "calculate": "format(datum['Mortality per 10k population'], '.0f') + ' people per 10,000 population'",
+          "calculate": "format(datum['Mortality per 10k population'], '.0f') + ' molarity per 10,000 population'",
           "as": "Formatted Mortality"
         }
       ],

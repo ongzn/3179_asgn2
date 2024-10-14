@@ -1,0 +1,50 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Heatmap showing the count of heart attacks by Smoking Status and Sex.",
+    "width": 300,
+    "height":200,
+    "background": "#dddddd",
+    "data": {
+      "url": "https://raw.githubusercontent.com/ongzn/3179_asgn2/refs/heads/main/data/heart_attack_prediction_dataset.csv",
+      "format": {
+        "type": "csv"
+      }
+    },
+    "transform": [
+      {
+        "calculate": "datum['Smoking'] == 1 ? 'Yes' : 'No'",
+        "as": "SmokingStatus"
+      },
+      {
+        "calculate": "datum['Heart Attack Risk'] == 1 ? 1 : 0",
+        "as": "HeartAttackCount"
+      }
+    ],
+    "mark": "rect",
+    "encoding": {
+      "x": {
+        "field": "SmokingStatus",
+        "type": "nominal",
+        "title": "Smoking"
+      },
+      "y": {
+        "field": "Sex",
+        "type": "nominal",
+        "title": "Sex"
+      },
+      "color": {
+        "aggregate": "sum",
+        "field": "HeartAttackCount",
+        "type": "quantitative",
+        "title": "Number of Heart Attacks",
+        "scale": {
+          "scheme": "browns"
+        }
+      },
+      "tooltip": [
+        {"aggregate": "sum", "field": "HeartAttackCount", "type": "quantitative", "title": "Number of Heart Attacks"},
+        {"field": "SmokingStatus", "type": "nominal", "title": "Smoking Status"},
+        {"field": "Sex", "type": "nominal", "title": "Sex"}
+      ]
+    }
+  }

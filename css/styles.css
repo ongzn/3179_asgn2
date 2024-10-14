@@ -63,11 +63,17 @@ p {
 .visualization-container {
     background-color: var(--background-color-light);
     padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
-    border: none;
     box-shadow: none; /* Remove any shadows */
     width: 100%; /* Ensure the container takes the full width */
     height: auto; /* Ensure height is auto-adjusted */
+}
+
+.visualization-container-column {
+    background-color: #dddddd;;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px 0;
 }
 
 .pure-g {
@@ -82,6 +88,11 @@ p {
     text-align: center;
 }
 
+.pure-u-1-4, .pure-u-1-5 {
+    width: 48%;
+    text-align: center;
+}
+
 .section-container {
     background-color: #dddddd; /* Background color for section box */
     padding: 20px; /* Padding inside the container */
@@ -90,14 +101,15 @@ p {
     margin: 20px 0; /* Gap between sections */
 }
 
-.vega-tooltip {
-    background-color: rgba(255, 255, 255, 0.95);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    border-radius: 4px;
-    font-size: 14px;
+input[type="range"] {
+    width: 70% !important;
+    margin-top: 20px;
 }
 
-.vega-tooltip-container div {
-    margin-bottom: 5px;
+.two-column-layout {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 10px;
 }
+

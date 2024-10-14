@@ -31,6 +31,10 @@
     {
       "fold": ["Male", "Female", "NonSmoker"],
       "as": ["Gender", "Data"]
+    },
+    {
+      "calculate": "format(datum['Data'], '.1f') + ' %'",
+      "as": "DataPercentage"
     }
   ],
   "mark": "arc",
@@ -44,15 +48,25 @@
     "tooltip": [
       {"field": "Gender", "type": "nominal"},
       {
-        "field": "Data",
-        "type": "quantitative",
-        "format": ".1f",
-        "title": "Percentage(%)"
+        "field": "DataPercentage",
+        "type": "nominal",
+        "title": "Percentage"
       }
     ]
   },
   "view": {"stroke": null},
   "params": [
+    {
+      "name": "year_slider",
+      "value": 2018,
+      "bind": {
+        "input": "range",
+        "min": 2018,
+        "max": 2020,
+        "step": 1,
+        "name": "Select Year: "
+      }
+    },
     {
       "name": "country_select",
       "value": "Malaysia",
@@ -97,18 +111,8 @@
           "Uganda", "Ukraine", "Upper middle income", "Uruguay", "United States", "Uzbekistan",
           "Viet Nam", "Vanuatu", "World", "Samoa", "Yemen, Rep.", "South Africa", "Zambia", "Zimbabwe"
         ],
-        "name": "Select Country: "
-      }
-    },
-    {
-      "name": "year_slider",
-      "value": 2018,
-      "bind": {
-        "input": "range",
-        "min": 2018,
-        "max": 2020,
-        "step": 1,
-        "name": "Select Year: "
+        "name": "Select a Country: ",
+        "element": "pie-select"
       }
     }
   ]
