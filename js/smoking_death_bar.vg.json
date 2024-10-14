@@ -1,13 +1,22 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "background": "#e5e5e5",
+    "background": "#dddddd",
     "description": "Trend of Smoking Mortality by Year for a Selected Country",
     "data": {
       "url": "https://raw.githubusercontent.com/ongzn/3179_asgn2/refs/heads/main/data/death-rate-smoking%20new.csv",
       "format": {"type": "csv"}
     },
-    "width": 600,
+    "width": 800,
     "height": 400,
+    "config": {
+      "axisX": {
+        "grid": false
+      },
+      "axisY": {
+        "grid": true,
+        "gridColor": "darkgray"
+      }
+    },
     "layer": [
       {
         "selection": {
@@ -84,11 +93,17 @@
             "title": "Total Smoking Mortality (millions)"
           },
           "color": {
-            "value": "steelblue"
+            "value": "#3e6a40"
           },
+          
           "tooltip": [
             {"field": "Year", "type": "ordinal"},
-            {"field": "Total Smoking Mortality", "type": "quantitative"}
+            
+            {
+              "field": "Total Smoking Mortality",
+              "type": "quantitative",
+              "format": ".0f"
+            }
           ]
         }
       },
@@ -145,3 +160,4 @@
       } 
     ]
   }
+

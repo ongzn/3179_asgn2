@@ -1,91 +1,115 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "A dynamic pie chart showing tobacco use for males and females by country and year.",
-    "background": "#e5e5e5",
-    "data": {
-      "url": "https://raw.githubusercontent.com/ongzn/3179_asgn2/refs/heads/main/data/processed_tobacco_use.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A dynamic pie chart showing tobacco use for males, females, and non-smokers by country and year.",
+  "background": "#dddddd",
+  "width": 400,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/ongzn/3179_asgn2/refs/heads/main/data/processed_tobacco_use.csv"
+  },
+  "transform": [
+    {
+      "calculate": "toNumber(datum['Year'])",
+      "as": "YearNumeric"
     },
-    "transform": [
-      {
-        "calculate": "toNumber(datum['Year'])",
-        "as": "YearNumeric"
-      },
-      {
-        "filter": "datum['Country Name'] === country_select && datum['YearNumeric'] === year_slider"
-      }
-    ],
-    "mark": "arc",
-    "encoding": {
-      "theta": {"field": "Data", "type": "quantitative"},
-      "color": {
-        "field": "Gender",
-        "type": "nominal",
-        "scale": {"range": ["#1f77b4", "#ff7f0e"]}
-      },
-      "tooltip": [
-        {"field": "Gender", "type": "nominal"},
-        {"field": "Data", "type": "quantitative"}
-      ]
+    {
+      "filter": "datum['Country Name'] === country_select && datum['YearNumeric'] === year_slider"
     },
-    "view": {"stroke": null},
-    "params": [
+    {
+      "aggregate": [{"op": "sum", "field": "Data", "as": "Total"}],
+      "groupby": ["Gender"]
+    },
+    {
+      "pivot": "Gender",
+      "value": "Total",
+      "groupby": []
+    },
+    {
+      "calculate": "100 - (datum.Female + datum.Male)",
+      "as": "NonSmoker"
+    },
+    {
+      "fold": ["Male", "Female", "NonSmoker"],
+      "as": ["Gender", "Data"]
+    }
+  ],
+  "mark": "arc",
+  "encoding": {
+    "theta": {"field": "Data", "type": "quantitative"},
+    "color": {
+      "field": "Gender",
+      "type": "nominal",
+      "scale": {"range": ["orange", "blue", "gray"]}
+    },
+    "tooltip": [
+      {"field": "Gender", "type": "nominal"},
       {
-        "name": "country_select",
-        "value": "Malaysia",
-        "bind": {
-          "input": "select",
-          "options": [
-            "Africa Eastern and Southern", "Afghanistan", "Africa Western and Central", "Albania",
-            "Andorra", "Arab World", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan",
-            "Burundi", "Belgium", "Benin", "Burkina Faso", "Bangladesh", "Bulgaria", "Bahrain",
-            "Bahamas, The", "Bosnia and Herzegovina", "Belarus", "Belize", "Bolivia", "Brazil",
-            "Barbados", "Brunei Darussalam", "Botswana", "Canada", "Central Europe and the Baltics",
-            "Switzerland", "Chile", "China", "Cote d'Ivoire", "Cameroon", "Congo, Dem. Rep.",
-            "Congo, Rep.", "Colombia", "Comoros", "Cabo Verde", "Costa Rica", "Cuba", "Cyprus",
-            "Czechia", "Germany", "Denmark", "Dominican Republic", "Algeria", "East Asia & Pacific (excluding high income)",
-            "Early-demographic dividend", "East Asia & Pacific", "Europe & Central Asia (excluding high income)",
-            "Europe & Central Asia", "Ecuador", "Egypt, Arab Rep.", "Euro area", "Eritrea", "Spain",
-            "Estonia", "Ethiopia", "European Union", "Fragile and conflict affected situations", "Finland",
-            "Fiji", "France", "United Kingdom", "Georgia", "Ghana", "Gambia, The", "Guinea-Bissau",
-            "Greece", "Guatemala", "Guyana", "High income", "Heavily indebted poor countries (HIPC)",
-            "Croatia", "Haiti", "Hungary", "IBRD only", "IDA & IBRD total", "IDA total", "IDA blend",
-            "Indonesia", "IDA only", "India", "Ireland", "Iran, Islamic Rep.", "Iraq", "Iceland", "Israel",
-            "Italy", "Jamaica", "Jordan", "Japan", "Kazakhstan", "Kenya", "Kyrgyz Republic", "Cambodia",
-            "Kiribati", "Korea, Rep.", "Kuwait", "Latin America & Caribbean (excluding high income)", "Lao PDR",
-            "Lebanon", "Liberia", "Latin America & Caribbean", "Least developed countries: UN classification",
-            "Low income", "Sri Lanka", "Lower middle income", "Low & middle income", "Lesotho",
-            "Late-demographic dividend", "Lithuania", "Luxembourg", "Latvia", "Morocco", "Moldova",
-            "Madagascar", "Maldives", "Middle East & North Africa", "Mexico", "Marshall Islands",
-            "Middle income", "Mali", "Malta", "Myanmar", "Middle East & North Africa (excluding high income)",
-            "Montenegro", "Mongolia", "Mozambique", "Mauritania", "Mauritius", "Malawi", "Malaysia",
-            "North America", "Namibia", "Niger", "Nigeria", "Netherlands", "Norway", "Nepal", "Nauru",
-            "New Zealand", "OECD members", "Oman", "Other small states", "Pakistan", "Panama", "Peru",
-            "Philippines", "Palau", "Papua New Guinea", "Poland", "Pre-demographic dividend",
-            "Korea, Dem. People's Rep.", "Portugal", "Paraguay", "Pacific island small states", "Post-demographic dividend",
-            "Qatar", "Romania", "Russian Federation", "Rwanda", "South Asia", "Saudi Arabia", "Senegal",
-            "Singapore", "Solomon Islands", "Sierra Leone", "El Salvador", "Serbia", "Sub-Saharan Africa (excluding high income)",
-            "Sub-Saharan Africa", "Small states", "Sao Tome and Principe", "Slovak Republic", "Slovenia",
-            "Sweden", "Eswatini", "Seychelles", "Chad", "East Asia & Pacific (IDA & IBRD countries)",
-            "Europe & Central Asia (IDA & IBRD countries)", "Togo", "Thailand", "Turkmenistan",
-            "Latin America & the Caribbean (IDA & IBRD countries)", "Timor-Leste",
-            "Middle East & North Africa (IDA & IBRD countries)", "Tonga", "South Asia (IDA & IBRD)",
-            "Sub-Saharan Africa (IDA & IBRD countries)", "Tunisia", "Turkiye", "Tuvalu", "Tanzania",
-            "Uganda", "Ukraine", "Upper middle income", "Uruguay", "United States", "Uzbekistan",
-            "Viet Nam", "Vanuatu", "World", "Samoa", "Yemen, Rep.", "South Africa", "Zambia", "Zimbabwe"
-          ],
-          "name": "Select Country: "
-        }
-      },
-      {
-        "name": "year_slider",
-        "value": 2018,
-        "bind": {
-          "input": "range",
-          "min": 2018,
-          "max": 2020,
-          "step": 1,
-          "name": "Select Year: "
-        }
+        "field": "Data",
+        "type": "quantitative",
+        "format": ".1f",
+        "title": "Percentage(%)"
       }
     ]
-  }
+  },
+  "view": {"stroke": null},
+  "params": [
+    {
+      "name": "country_select",
+      "value": "Malaysia",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Africa Eastern and Southern", "Afghanistan", "Africa Western and Central", "Albania",
+          "Andorra", "Arab World", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan",
+          "Burundi", "Belgium", "Benin", "Burkina Faso", "Bangladesh", "Bulgaria", "Bahrain",
+          "Bahamas, The", "Bosnia and Herzegovina", "Belarus", "Belize", "Bolivia", "Brazil",
+          "Barbados", "Brunei Darussalam", "Botswana", "Canada", "Central Europe and the Baltics",
+          "Switzerland", "Chile", "China", "Cote d'Ivoire", "Cameroon", "Congo, Dem. Rep.",
+          "Congo, Rep.", "Colombia", "Comoros", "Cabo Verde", "Costa Rica", "Cuba", "Cyprus",
+          "Czechia", "Germany", "Denmark", "Dominican Republic", "Algeria", "East Asia & Pacific (excluding high income)",
+          "Early-demographic dividend", "East Asia & Pacific", "Europe & Central Asia (excluding high income)",
+          "Europe & Central Asia", "Ecuador", "Egypt, Arab Rep.", "Euro area", "Eritrea", "Spain",
+          "Estonia", "Ethiopia", "European Union", "Fragile and conflict affected situations", "Finland",
+          "Fiji", "France", "United Kingdom", "Georgia", "Ghana", "Gambia, The", "Guinea-Bissau",
+          "Greece", "Guatemala", "Guyana", "High income", "Heavily indebted poor countries (HIPC)",
+          "Croatia", "Haiti", "Hungary", "IBRD only", "IDA & IBRD total", "IDA total", "IDA blend",
+          "Indonesia", "IDA only", "India", "Ireland", "Iran, Islamic Rep.", "Iraq", "Iceland", "Israel",
+          "Italy", "Jamaica", "Jordan", "Japan", "Kazakhstan", "Kenya", "Kyrgyz Republic", "Cambodia",
+          "Kiribati", "Korea, Rep.", "Kuwait", "Latin America & Caribbean (excluding high income)", "Lao PDR",
+          "Lebanon", "Liberia", "Latin America & Caribbean", "Least developed countries: UN classification",
+          "Low income", "Sri Lanka", "Lower middle income", "Low & middle income", "Lesotho",
+          "Late-demographic dividend", "Lithuania", "Luxembourg", "Latvia", "Morocco", "Moldova",
+          "Madagascar", "Maldives", "Middle East & North Africa", "Mexico", "Marshall Islands",
+          "Middle income", "Mali", "Malta", "Myanmar", "Middle East & North Africa (excluding high income)",
+          "Montenegro", "Mongolia", "Mozambique", "Mauritania", "Mauritius", "Malawi", "Malaysia",
+          "North America", "Namibia", "Niger", "Nigeria", "Netherlands", "Norway", "Nepal", "Nauru",
+          "New Zealand", "OECD members", "Oman", "Other small states", "Pakistan", "Panama", "Peru",
+          "Philippines", "Palau", "Papua New Guinea", "Poland", "Pre-demographic dividend",
+          "Korea, Dem. People's Rep.", "Portugal", "Paraguay", "Pacific island small states", "Post-demographic dividend",
+          "Qatar", "Romania", "Russian Federation", "Rwanda", "South Asia", "Saudi Arabia", "Senegal",
+          "Singapore", "Solomon Islands", "Sierra Leone", "El Salvador", "Serbia", "Sub-Saharan Africa (excluding high income)",
+          "Sub-Saharan Africa", "Small states", "Sao Tome and Principe", "Slovak Republic", "Slovenia",
+          "Sweden", "Eswatini", "Seychelles", "Chad", "East Asia & Pacific (IDA & IBRD countries)",
+          "Europe & Central Asia (IDA & IBRD countries)", "Togo", "Thailand", "Turkmenistan",
+          "Latin America & the Caribbean (IDA & IBRD countries)", "Timor-Leste",
+          "Middle East & North Africa (IDA & IBRD countries)", "Tonga", "South Asia (IDA & IBRD)",
+          "Sub-Saharan Africa (IDA & IBRD countries)", "Tunisia", "Turkiye", "Tuvalu", "Tanzania",
+          "Uganda", "Ukraine", "Upper middle income", "Uruguay", "United States", "Uzbekistan",
+          "Viet Nam", "Vanuatu", "World", "Samoa", "Yemen, Rep.", "South Africa", "Zambia", "Zimbabwe"
+        ],
+        "name": "Select Country: "
+      }
+    },
+    {
+      "name": "year_slider",
+      "value": 2018,
+      "bind": {
+        "input": "range",
+        "min": 2018,
+        "max": 2020,
+        "step": 1,
+        "name": "Select Year: "
+      }
+    }
+  ]
+}

@@ -1,86 +1,103 @@
+:root {
+    --primary-color: #2e2e2e;
+    --secondary-color: #5f6368;
+    --background-color: #eef2f3;
+    --background-color-light: #f4f4f4;
+    --background-color-dark: #e5e5e5;
+    --text-color: #5f6368;
+    --navy-color: navy;
+    --white-color: white;
+    --font-primary: "Merriweather", serif;
+    --font-secondary: "Roboto Slab", serif;
+    --font-tertiary: "Roboto Condensed", sans-serif;
+}
+
 html, body {
     height: 100%;
     margin: 0;
-    font-family: "Times New Roman", Times, serif;
+    font-family: var(--font-primary);
+    background-color: var(--background-color);
 }
 
 .page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%; /* Ensure full width */
+    padding: 30px;
+    background-color: var(--background-color-light);
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    max-width: 90%;
+    min-width: 80%;
+    width: 100%;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: var(--font-secondary);
+    font-size: 50px;
+    font-weight: 700;
+    background-color: var(--navy-color);
+    color: var(--white-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
     text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-family: var(--font-secondary);
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+p {
+    font-family: var(--font-tertiary);
+    font-size: 18px;
+    color: var(--text-color);
+    text-align: center;
+    margin: 50px 200px;
+}
+
+.visualization-container {
+    background-color: var(--background-color-light);
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    border: none;
+    box-shadow: none; /* Remove any shadows */
+    width: 100%; /* Ensure the container takes the full width */
+    height: auto; /* Ensure height is auto-adjusted */
 }
 
 .pure-g {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2em;
-    width: 100%; /* Ensure full width for the container */
-}
-
-.visualization-container {
-    background-color: #e5e5e5;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-	margin-bottom: 0.5em;
-	margin-top: 0.5em;
-    width: 100%; /* Stretch the background to the full width */
-}
-
-h1 {
-    font-size: 48px;
-    background-color: navy;
-    color: white;
-    padding: 10px;
-    border-radius: 0; /* Remove rounded edges */
-    margin: 0;
-    width: 100vw; /* Stretch the title to the full viewport width */
-    text-align: center;
-}
-
-h2 {
-    font-size: 36px;
-    color: navy;
-}
-
-p {
-    font-family: serif;
-    max-width: 80%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.vis-container {
-    background-color: #e5e5e5;
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px; 
-	margin-bottom: 30px; 
 }
 
-select, input[type="range"] {
-    width: 150px; /* Or set the desired width */
-    margin: 10px 0;
+.pure-u-1-1, .pure-u-1-2, .pure-u-1-3 {
+    width: 100%;
+    text-align: center;
 }
 
-.controls-container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%; /* Full width of the container */
-	max-width: 600px; /* Adjust the maximum width */
-	margin: 20px auto; /* Center horizontally */
+.section-container {
+    background-color: #dddddd; /* Background color for section box */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Box shadow for section box */
+    margin: 20px 0; /* Gap between sections */
 }
 
-.controls-container label {
-	margin-right: 10px;
+.vega-tooltip {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.vega-tooltip-container div {
+    margin-bottom: 5px;
 }
