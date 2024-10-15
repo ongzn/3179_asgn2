@@ -37,13 +37,21 @@
       "as": "DataPercentage"
     }
   ],
-  "mark": "arc",
+  "mark": {
+    "type": "arc",
+    "stroke": "#fff",
+    "cursor": "pointer"
+  },
   "encoding": {
     "theta": {"field": "Data", "type": "quantitative"},
     "color": {
       "field": "Gender",
       "type": "nominal",
       "scale": {"range": ["orange", "blue", "gray"]}
+    },
+    "opacity": {
+      "condition": {"selection": "highlight", "value": 1},
+      "value": 0.5
     },
     "tooltip": [
       {"field": "Gender", "type": "nominal"},
@@ -115,5 +123,12 @@
         "element": "pie-select"
       }
     }
-  ]
+  ],
+  "selection": {
+    "highlight": {
+      "type": "single",
+      "on": "click",
+      "encodings": ["color"]
+    }
+  }
 }
