@@ -1,6 +1,6 @@
 ﻿Entity,Year,Smoking mortality
 Afghanistan,1990,7583769
-African Region (WHO),1990,8285964
+African Region,1990,8285964
 Albania,1990,14721635
 Algeria,1990,14394376
 American Samoa,1990,15573251
@@ -37,10 +37,10 @@ Cape Verde,1990,50593094
 Central African Republic,1990,12222806
 Chad,1990,6656308
 Chile,1990,9429074
-China,1990,21652554
+People’s Republic of China,1990,21652554
 Colombia,1990,9110134
 Comoros,1990,9472486
-Congo,1990,97342155
+Republic of the Congo,1990,97342155
 Cook Islands,1990,14679816
 Costa Rica,1990,79260735
 Cote d'Ivoire,1990,7670285
@@ -48,14 +48,14 @@ Croatia,1990,20824942
 Cuba,1990,14132689
 Cyprus,1990,13385106
 Czechia,1990,21172884
-Democratic Republic of Congo,1990,7758285
+Democratic Republic of Republic of the Congo,1990,7758285
 Denmark,1990,20998528
 Djibouti,1990,10516822
 Dominica,1990,64112854
 Dominican Republic,1990,77634514
-East Asia & Pacific (WB),1990,18177223
+East Asia & Pacific,1990,18177223
 East Timor,1990,13412769
-Eastern Mediterranean Region (WHO),1990,14045036
+Eastern Eastern Mediterranean Region ,1990,14045036
 Ecuador,1990,66797485
 Egypt,1990,11860111
 El Salvador,1990,43011612
@@ -65,7 +65,7 @@ Eritrea,1990,7874398
 Estonia,1990,17006465
 Eswatini,1990,10379355
 Ethiopia,1990,6674522
-Europe & Central Asia (WB),1990,1531056
+Europe & Central Asia,1990,1531056
 European Region (WHO),1990,1530131
 Fiji,1990,20444249
 Finland,1990,12392561
@@ -164,7 +164,7 @@ Poland,1990,21441537
 Portugal,1990,10025329
 Puerto Rico,1990,68547676
 Qatar,1990,10852237
-Region of the Americas (WHO),1990,14548508
+Region of the Americas,1990,14548508
 Romania,1990,16362961
 Russia,1990,14138052
 Rwanda,1990,16780505
@@ -186,13 +186,13 @@ Slovenia,1990,12734299
 Solomon Islands,1990,39529938
 Somalia,1990,11352538
 South Africa,1990,1428906
-South Asia (WB),1990,17179855
+South Asia,1990,17179855
 South Korea,1990,15142972
 South Sudan,1990,8201529
 South-East Asia Region (WHO),1990,16767433
 Spain,1990,12021302
 Sri Lanka,1990,10989579
-Sub-Saharan Africa (WB),1990,8265768
+Sub-Saharan Africa,1990,8265768
 Sudan,1990,13076183
 Suriname,1990,97744896
 Sweden,1990,10620231
@@ -222,13 +222,13 @@ Vanuatu,1990,19173486
 Venezuela,1990,1094826
 Vietnam,1990,13032092
 Wales,1990,19986354
-Western Pacific Region (WHO),1990,18518814
+Western Pacific Region ,1990,18518814
 World,1990,1558947
 Yemen,1990,1765947
 Zambia,1990,11221718
 Zimbabwe,1990,1467255
 Afghanistan,1991,7563527
-African Region (WHO),1991,82571655
+African Region,1991,82571655
 Albania,1991,14624446
 Algeria,1991,14065019
 American Samoa,1991,15442474
@@ -265,10 +265,10 @@ Cape Verde,1991,5060807
 Central African Republic,1991,12338981
 Chad,1991,65944305
 Chile,1991,8826499
-China,1991,21794281
+People’s Republic of China,1991,21794281
 Colombia,1991,9153723
 Comoros,1991,9330025
-Congo,1991,9493201
+Republic of the Congo,1991,9493201
 Cook Islands,1991,143233
 Costa Rica,1991,7745385
 Cote d'Ivoire,1991,7737693
@@ -276,14 +276,14 @@ Croatia,1991,19962401
 Cuba,1991,13918408
 Cyprus,1991,14105571
 Czechia,1991,19992729
-Democratic Republic of Congo,1991,75554436
+Democratic Republic of Republic of the Congo,1991,75554436
 Denmark,1991,20668707
 Djibouti,1991,10694173
 Dominica,1991,62477943
 Dominican Republic,1991,74477
-East Asia & Pacific (WB),1991,18170705
+East Asia & Pacific,1991,18170705
 East Timor,1991,13334114
-Eastern Mediterranean Region (WHO),1991,14067654
+Eastern Eastern Mediterranean Region ,1991,14067654
 Ecuador,1991,697675
 Egypt,1991,118332016
 El Salvador,1991,4130435
@@ -293,7 +293,7 @@ Eritrea,1991,7928939
 Estonia,1991,17514185
 Eswatini,1991,10179803
 Ethiopia,1991,6517896
-Europe & Central Asia (WB),1991,15252444
+Europe & Central Asia,1991,15252444
 European Region (WHO),1991,15243752
 Fiji,1991,20183273
 Finland,1991,11828669
@@ -392,7 +392,7 @@ Poland,1991,2212549
 Portugal,1991,10042059
 Puerto Rico,1991,673367
 Qatar,1991,11431919
-Region of the Americas (WHO),1991,14174878
+Region of the Americas,1991,14174878
 Romania,1991,16304672
 Russia,1991,1418133
 Rwanda,1991,1733333
@@ -414,13 +414,13 @@ Slovenia,1991,12629084
 Solomon Islands,1991,39395862
 Somalia,1991,112738716
 South Africa,1991,14414478
-South Asia (WB),1991,17115508
+South Asia,1991,17115508
 South Korea,1991,1471059
 South Sudan,1991,8214871
 South-East Asia Region (WHO),1991,16678908
 Spain,1991,11930384
 Sri Lanka,1991,10064251
-Sub-Saharan Africa (WB),1991,8238251
+Sub-Saharan Africa,1991,8238251
 Sudan,1991,13022026
 Suriname,1991,102715164
 Sweden,1991,104636826
@@ -450,13 +450,13 @@ Vanuatu,1991,1924793
 Venezuela,1991,10779933
 Vietnam,1991,1309732
 Wales,1991,19483922
-Western Pacific Region (WHO),1991,1851367
+Western Pacific Region ,1991,1851367
 World,1991,1549284
 Yemen,1991,17442416
 Zambia,1991,11522835
 Zimbabwe,1991,14273424
 Afghanistan,1992,7566105
-African Region (WHO),1992,8275444
+African Region,1992,8275444
 Albania,1992,13761829
 Algeria,1992,13787665
 American Samoa,1992,15245964
@@ -493,10 +493,10 @@ Cape Verde,1992,5020507
 Central African Republic,1992,12287623
 Chad,1992,6643871
 Chile,1992,8366628
-China,1992,2190114
+People’s Republic of China,1992,2190114
 Colombia,1992,8875141
 Comoros,1992,9497574
-Congo,1992,9369473
+Republic of the Congo,1992,9369473
 Cook Islands,1992,13957268
 Costa Rica,1992,76796875
 Cote d'Ivoire,1992,7896473
@@ -504,14 +504,14 @@ Croatia,1992,19555634
 Cuba,1992,14065929
 Cyprus,1992,14554143
 Czechia,1992,19443922
-Democratic Republic of Congo,1992,7333161
+Democratic Republic of Republic of the Congo,1992,7333161
 Denmark,1992,20651244
 Djibouti,1992,10933206
 Dominica,1992,602976
 Dominican Republic,1992,7161122
-East Asia & Pacific (WB),1992,18156355
+East Asia & Pacific,1992,18156355
 East Timor,1992,13366473
-Eastern Mediterranean Region (WHO),1992,14096686
+Eastern Eastern Mediterranean Region ,1992,14096686
 Ecuador,1992,65944824
 Egypt,1992,11616836
 El Salvador,1992,4089542
@@ -521,7 +521,7 @@ Eritrea,1992,7898353
 Estonia,1992,17293108
 Eswatini,1992,98695786
 Ethiopia,1992,6353673
-Europe & Central Asia (WB),1992,1537967
+Europe & Central Asia,1992,1537967
 European Region (WHO),1992,15372058
 Fiji,1992,198411
 Finland,1992,11470273
@@ -620,7 +620,7 @@ Poland,1992,21375412
 Portugal,1992,987524
 Puerto Rico,1992,6689748
 Qatar,1992,11620843
-Region of the Americas (WHO),1992,13885512
+Region of the Americas,1992,13885512
 Romania,1992,17094484
 Russia,1992,1540281
 Rwanda,1992,1780771
@@ -642,13 +642,13 @@ Slovenia,1992,12494388
 Solomon Islands,1992,39018408
 Somalia,1992,112276726
 South Africa,1992,14922583
-South Asia (WB),1992,16966415
+South Asia,1992,16966415
 South Korea,1992,14039882
 South Sudan,1992,824168
 South-East Asia Region (WHO),1992,16505737
 Spain,1992,11664505
 Sri Lanka,1992,9772121
-Sub-Saharan Africa (WB),1992,8256905
+Sub-Saharan Africa,1992,8256905
 Sudan,1992,12884541
 Suriname,1992,10633915
 Sweden,1992,10186151
@@ -678,13 +678,13 @@ Vanuatu,1992,19267177
 Venezuela,1992,10501094
 Vietnam,1992,13137523
 Wales,1992,19150966
-Western Pacific Region (WHO),1992,18504356
+Western Pacific Region ,1992,18504356
 World,1992,15447014
 Yemen,1992,17284686
 Zambia,1992,11755629
 Zimbabwe,1992,14345248
 Afghanistan,1993,7653363
-African Region (WHO),1993,8186713
+African Region,1993,8186713
 Albania,1993,12935193
 Algeria,1993,1351183
 American Samoa,1993,14987363
@@ -721,10 +721,10 @@ Cape Verde,1993,50369293
 Central African Republic,1993,12304432
 Chad,1993,6738189
 Chile,1993,8204906
-China,1993,2193601
+People’s Republic of China,1993,2193601
 Colombia,1993,8458117
 Comoros,1993,9398565
-Congo,1993,9271585
+Republic of the Congo,1993,9271585
 Cook Islands,1993,13593475
 Costa Rica,1993,74018616
 Cote d'Ivoire,1993,8080736
@@ -732,14 +732,14 @@ Croatia,1993,19222073
 Cuba,1993,14232089
 Cyprus,1993,14486444
 Czechia,1993,18527425
-Democratic Republic of Congo,1993,7072401
+Democratic Republic of Republic of the Congo,1993,7072401
 Denmark,1993,20672171
 Djibouti,1993,112455475
 Dominica,1993,5876238
 Dominican Republic,1993,7082742
-East Asia & Pacific (WB),1993,18088521
+East Asia & Pacific,1993,18088521
 East Timor,1993,13343288
-Eastern Mediterranean Region (WHO),1993,14190463
+Eastern Eastern Mediterranean Region ,1993,14190463
 Ecuador,1993,62169247
 Egypt,1993,11940121
 El Salvador,1993,4011343
@@ -749,7 +749,7 @@ Eritrea,1993,7891181
 Estonia,1993,18654262
 Eswatini,1993,9564198
 Ethiopia,1993,61498123
-Europe & Central Asia (WB),1993,1592651
+Europe & Central Asia,1993,1592651
 European Region (WHO),1993,15913101
 Fiji,1993,19623683
 Finland,1993,11020587
@@ -848,7 +848,7 @@ Poland,1993,20368597
 Portugal,1993,9878752
 Puerto Rico,1993,6734426
 Qatar,1993,11383871
-Region of the Americas (WHO),1993,13823895
+Region of the Americas,1993,13823895
 Romania,1993,17115952
 Russia,1993,18672647
 Rwanda,1993,18090536
@@ -870,13 +870,13 @@ Slovenia,1993,12394124
 Solomon Islands,1993,38595718
 Somalia,1993,11135745
 South Africa,1993,14384027
-South Asia (WB),1993,1673737
+South Asia,1993,1673737
 South Korea,1993,13618306
 South Sudan,1993,8233663
 South-East Asia Region (WHO),1993,1624577
 Spain,1993,114907585
 Sri Lanka,1993,9189651
-Sub-Saharan Africa (WB),1993,8168903
+Sub-Saharan Africa,1993,8168903
 Sudan,1993,12754666
 Suriname,1993,11429227
 Sweden,1993,9988349
@@ -906,13 +906,13 @@ Vanuatu,1993,19154921
 Venezuela,1993,10280533
 Vietnam,1993,13149539
 Wales,1993,1904439
-Western Pacific Region (WHO),1993,18444461
+Western Pacific Region ,1993,18444461
 World,1993,15511963
 Yemen,1993,17131189
 Zambia,1993,11977114
 Zimbabwe,1993,14335674
 Afghanistan,1994,7778142
-African Region (WHO),1994,8212905
+African Region,1994,8212905
 Albania,1994,11884265
 Algeria,1994,13264581
 American Samoa,1994,14816165
@@ -949,10 +949,10 @@ Cape Verde,1994,4979746
 Central African Republic,1994,1231521
 Chad,1994,6797533
 Chile,1994,8003456
-China,1994,21798007
+People’s Republic of China,1994,21798007
 Colombia,1994,8117171
 Comoros,1994,9472774
-Congo,1994,929603
+Republic of the Congo,1994,929603
 Cook Islands,1994,13261392
 Costa Rica,1994,7521936
 Cote d'Ivoire,1994,8261014
@@ -960,14 +960,14 @@ Croatia,1994,18696375
 Cuba,1994,14158232
 Cyprus,1994,14049792
 Czechia,1994,18176773
-Democratic Republic of Congo,1994,6929117
+Democratic Republic of Republic of the Congo,1994,6929117
 Denmark,1994,20599652
 Djibouti,1994,112169
 Dominica,1994,5745209
 Dominican Republic,1994,6892674
-East Asia & Pacific (WB),1994,17915323
+East Asia & Pacific,1994,17915323
 East Timor,1994,1322795
-Eastern Mediterranean Region (WHO),1994,14252068
+Eastern Eastern Mediterranean Region ,1994,14252068
 Ecuador,1994,59180878
 Egypt,1994,122868774
 El Salvador,1994,3882434
@@ -977,7 +977,7 @@ Eritrea,1994,8016576
 Estonia,1994,2009164
 Eswatini,1994,9512445
 Ethiopia,1994,59285667
-Europe & Central Asia (WB),1994,16135567
+Europe & Central Asia,1994,16135567
 European Region (WHO),1994,1611834
 Fiji,1994,1941082
 Finland,1994,10348893
@@ -1076,7 +1076,7 @@ Poland,1994,1996519
 Portugal,1994,94396385
 Puerto Rico,1994,6617371
 Qatar,1994,9400085
-Region of the Americas (WHO),1994,13546017
+Region of the Americas,1994,13546017
 Romania,1994,17259741
 Russia,1994,20577461
 Rwanda,1994,18555972
@@ -1098,13 +1098,13 @@ Slovenia,1994,122645424
 Solomon Islands,1994,3817872
 Somalia,1994,11085712
 South Africa,1994,1503366
-South Asia (WB),1994,1646241
+South Asia,1994,1646241
 South Korea,1994,13405461
 South Sudan,1994,8195276
 South-East Asia Region (WHO),1994,15943785
 Spain,1994,113002266
 Sri Lanka,1994,9206017
-Sub-Saharan Africa (WB),1994,8195856
+Sub-Saharan Africa,1994,8195856
 Sudan,1994,12636584
 Suriname,1994,10577367
 Sweden,1994,9571006
@@ -1134,13 +1134,13 @@ Vanuatu,1994,19181593
 Venezuela,1994,102656364
 Vietnam,1994,1314752
 Wales,1994,18435678
-Western Pacific Region (WHO),1994,18267453
+Western Pacific Region ,1994,18267453
 World,1994,1541681
 Yemen,1994,17002672
 Zambia,1994,12189271
 Zimbabwe,1994,14474861
 Afghanistan,1995,785168
-African Region (WHO),1995,8231387
+African Region,1995,8231387
 Albania,1995,119742836
 Algeria,1995,1296532
 American Samoa,1995,14638058
@@ -1177,10 +1177,10 @@ Cape Verde,1995,4894781
 Central African Republic,1995,12251709
 Chad,1995,68378296
 Chile,1995,79356224
-China,1995,21699695
+People’s Republic of China,1995,21699695
 Colombia,1995,7759685
 Comoros,1995,94378296
-Congo,1995,922814
+Republic of the Congo,1995,922814
 Cook Islands,1995,12981487
 Costa Rica,1995,7578494
 Cote d'Ivoire,1995,8415525
@@ -1188,14 +1188,14 @@ Croatia,1995,18397856
 Cuba,1995,13880977
 Cyprus,1995,13749043
 Czechia,1995,17987471
-Democratic Republic of Congo,1995,6844818
+Democratic Republic of Republic of the Congo,1995,6844818
 Denmark,1995,20404234
 Djibouti,1995,11470568
 Dominica,1995,5612502
 Dominican Republic,1995,6879135
-East Asia & Pacific (WB),1995,17780708
+East Asia & Pacific,1995,17780708
 East Timor,1995,13089471
-Eastern Mediterranean Region (WHO),1995,14282214
+Eastern Eastern Mediterranean Region ,1995,14282214
 Ecuador,1995,5568367
 Egypt,1995,12132501
 El Salvador,1995,36508167
@@ -1205,7 +1205,7 @@ Eritrea,1995,83894745
 Estonia,1995,18894331
 Eswatini,1995,9617441
 Ethiopia,1995,5726124
-Europe & Central Asia (WB),1995,15870145
+Europe & Central Asia,1995,15870145
 European Region (WHO),1995,15853268
 Fiji,1995,19179008
 Finland,1995,100982605
@@ -1304,7 +1304,7 @@ Poland,1995,19940752
 Portugal,1995,9430327
 Puerto Rico,1995,67823364
 Qatar,1995,8491854
-Region of the Americas (WHO),1995,13316896
+Region of the Americas,1995,13316896
 Romania,1995,17778728
 Russia,1995,19257822
 Rwanda,1995,18901628
@@ -1326,13 +1326,13 @@ Slovenia,1995,121004776
 Solomon Islands,1995,37698428
 Somalia,1995,110591675
 South Africa,1995,15376385
-South Asia (WB),1995,16115936
+South Asia,1995,16115936
 South Korea,1995,12801157
 South Sudan,1995,8202136
 South-East Asia Region (WHO),1995,15571913
 Spain,1995,112634514
 Sri Lanka,1995,9385021
-Sub-Saharan Africa (WB),1995,82187225
+Sub-Saharan Africa,1995,82187225
 Sudan,1995,12503039
 Suriname,1995,8799137
 Sweden,1995,9450573
@@ -1362,13 +1362,13 @@ Vanuatu,1995,18761879
 Venezuela,1995,98362206
 Vietnam,1995,13136722
 Wales,1995,18141995
-Western Pacific Region (WHO),1995,18137662
+Western Pacific Region ,1995,18137662
 World,1995,15226836
 Yemen,1995,16842545
 Zambia,1995,12415784
 Zimbabwe,1995,14801376
 Afghanistan,1996,79306305
-African Region (WHO),1996,8287713
+African Region,1996,8287713
 Albania,1996,121598564
 Algeria,1996,12607164
 American Samoa,1996,1447211
@@ -1405,10 +1405,10 @@ Cape Verde,1996,49517952
 Central African Republic,1996,12314052
 Chad,1996,7045853
 Chile,1996,7721314
-China,1996,21519371
+People’s Republic of China,1996,21519371
 Colombia,1996,75351234
 Comoros,1996,9402636
-Congo,1996,9096578
+Republic of the Congo,1996,9096578
 Cook Islands,1996,12707116
 Costa Rica,1996,70767136
 Cote d'Ivoire,1996,8423252
@@ -1416,14 +1416,14 @@ Croatia,1996,18314018
 Cuba,1996,13657016
 Cyprus,1996,1336623
 Czechia,1996,17185797
-Democratic Republic of Congo,1996,6801111
+Democratic Republic of Republic of the Congo,1996,6801111
 Denmark,1996,19856433
 Djibouti,1996,114662285
 Dominica,1996,54861412
 Dominican Republic,1996,7075605
-East Asia & Pacific (WB),1996,17556868
+East Asia & Pacific,1996,17556868
 East Timor,1996,12883217
-Eastern Mediterranean Region (WHO),1996,14176613
+Eastern Eastern Mediterranean Region ,1996,14176613
 Ecuador,1996,5536705
 Egypt,1996,11940182
 El Salvador,1996,33687534
@@ -1433,7 +1433,7 @@ Eritrea,1996,8206199
 Estonia,1996,16271736
 Eswatini,1996,9824956
 Ethiopia,1996,54283035
-Europe & Central Asia (WB),1996,15273978
+Europe & Central Asia,1996,15273978
 European Region (WHO),1996,15258876
 Fiji,1996,1903963
 Finland,1996,9719414
@@ -1532,7 +1532,7 @@ Poland,1996,19172227
 Portugal,1996,9449389
 Puerto Rico,1996,6660899
 Qatar,1996,10456293
-Region of the Americas (WHO),1996,12997572
+Region of the Americas,1996,12997572
 Romania,1996,18345132
 Russia,1996,17609776
 Rwanda,1996,1885588
@@ -1554,13 +1554,13 @@ Slovenia,1996,119024025
 Solomon Islands,1996,37310425
 Somalia,1996,1097658
 South Africa,1996,16405789
-South Asia (WB),1996,16093233
+South Asia,1996,16093233
 South Korea,1996,12423338
 South Sudan,1996,80867096
 South-East Asia Region (WHO),1996,15493777
 Spain,1996,111290344
 Sri Lanka,1996,9309788
-Sub-Saharan Africa (WB),1996,8281317
+Sub-Saharan Africa,1996,8281317
 Sudan,1996,12347606
 Suriname,1996,8439044
 Sweden,1996,92697365
@@ -1590,13 +1590,13 @@ Vanuatu,1996,18599698
 Venezuela,1996,9157212
 Vietnam,1996,13129243
 Wales,1996,17605516
-Western Pacific Region (WHO),1996,17907103
+Western Pacific Region ,1996,17907103
 World,1996,14962816
 Yemen,1996,16613864
 Zambia,1996,12531929
 Zimbabwe,1996,14776392
 Afghanistan,1997,8010564
-African Region (WHO),1997,838551
+African Region,1997,838551
 Albania,1997,120261116
 Algeria,1997,12247098
 American Samoa,1997,14323363
@@ -1633,10 +1633,10 @@ Cape Verde,1997,50489456
 Central African Republic,1997,12166103
 Chad,1997,7171598
 Chile,1997,73567856
-China,1997,2120452
+People’s Republic of China,1997,2120452
 Colombia,1997,6873915
 Comoros,1997,9215452
-Congo,1997,8988179
+Republic of the Congo,1997,8988179
 Cook Islands,1997,12453342
 Costa Rica,1997,69748146
 Cote d'Ivoire,1997,8362234
@@ -1644,14 +1644,14 @@ Croatia,1997,1831289
 Cuba,1997,1340282
 Cyprus,1997,13088434
 Czechia,1997,16919801
-Democratic Republic of Congo,1997,6532286
+Democratic Republic of Republic of the Congo,1997,6532286
 Denmark,1997,1921
 Djibouti,1997,11309441
 Dominica,1997,52937977
 Dominican Republic,1997,7265333
-East Asia & Pacific (WB),1997,17233351
+East Asia & Pacific,1997,17233351
 East Timor,1997,12552262
-Eastern Mediterranean Region (WHO),1997,1412281
+Eastern Eastern Mediterranean Region ,1997,1412281
 Ecuador,1997,50844242
 Egypt,1997,120361176
 El Salvador,1997,33134933
@@ -1661,7 +1661,7 @@ Eritrea,1997,8016988
 Estonia,1997,15992096
 Eswatini,1997,97735306
 Ethiopia,1997,51499016
-Europe & Central Asia (WB),1997,1470229
+Europe & Central Asia,1997,1470229
 European Region (WHO),1997,14689029
 Fiji,1997,18646727
 Finland,1997,9408519
@@ -1760,7 +1760,7 @@ Poland,1997,18877582
 Portugal,1997,9197776
 Puerto Rico,1997,62597294
 Qatar,1997,11549452
-Region of the Americas (WHO),1997,12616183
+Region of the Americas,1997,12616183
 Romania,1997,1820411
 Russia,1997,16207101
 Rwanda,1997,1856441
@@ -1782,13 +1782,13 @@ Slovenia,1997,11828494
 Solomon Islands,1997,369562
 Somalia,1997,10883031
 South Africa,1997,18198215
-South Asia (WB),1997,16474104
+South Asia,1997,16474104
 South Korea,1997,12175291
 South Sudan,1997,7856114
 South-East Asia Region (WHO),1997,15705005
 Spain,1997,10781578
 Sri Lanka,1997,9671027
-Sub-Saharan Africa (WB),1997,8385871
+Sub-Saharan Africa,1997,8385871
 Sudan,1997,121688545
 Suriname,1997,8563215
 Sweden,1997,9070251
@@ -1818,13 +1818,13 @@ Vanuatu,1997,18339143
 Venezuela,1997,85215866
 Vietnam,1997,1313118
 Wales,1997,17144954
-Western Pacific Region (WHO),1997,17588354
+Western Pacific Region ,1997,17588354
 World,1997,14725925
 Yemen,1997,16400195
 Zambia,1997,12545819
 Zimbabwe,1997,14916653
 Afghanistan,1998,80846924
-African Region (WHO),1998,8332483
+African Region,1998,8332483
 Albania,1998,117722275
 Algeria,1998,118439766
 American Samoa,1998,14218996
@@ -1861,10 +1861,10 @@ Cape Verde,1998,48819916
 Central African Republic,1998,120800644
 Chad,1998,7227496
 Chile,1998,7159277
-China,1998,2097569
+People’s Republic of China,1998,2097569
 Colombia,1998,6436293
 Comoros,1998,8810484
-Congo,1998,8607302
+Republic of the Congo,1998,8607302
 Cook Islands,1998,122208885
 Costa Rica,1998,6793632
 Cote d'Ivoire,1998,83438156
@@ -1872,14 +1872,14 @@ Croatia,1998,17653848
 Cuba,1998,13296928
 Cyprus,1998,12825812
 Czechia,1998,16006993
-Democratic Republic of Congo,1998,63825916
+Democratic Republic of Republic of the Congo,1998,63825916
 Denmark,1998,18528093
 Djibouti,1998,11350683
 Dominica,1998,51254147
 Dominican Republic,1998,7352222
-East Asia & Pacific (WB),1998,17058818
+East Asia & Pacific,1998,17058818
 East Timor,1998,125359535
-Eastern Mediterranean Region (WHO),1998,13961809
+Eastern Eastern Mediterranean Region ,1998,13961809
 Ecuador,1998,50225857
 Egypt,1998,12026209
 El Salvador,1998,34473118
@@ -1889,7 +1889,7 @@ Eritrea,1998,7742972
 Estonia,1998,16508278
 Eswatini,1998,99870056
 Ethiopia,1998,48870705
-Europe & Central Asia (WB),1998,14261064
+Europe & Central Asia,1998,14261064
 European Region (WHO),1998,14249486
 Fiji,1998,1758789
 Finland,1998,90954926
@@ -1988,7 +1988,7 @@ Poland,1998,18239357
 Portugal,1998,90545876
 Puerto Rico,1998,6501444
 Qatar,1998,115928764
-Region of the Americas (WHO),1998,12374177
+Region of the Americas,1998,12374177
 Romania,1998,17085754
 Russia,1998,15813504
 Rwanda,1998,18107059
@@ -2010,13 +2010,13 @@ Slovenia,1998,116694084
 Solomon Islands,1998,3656601
 Somalia,1998,1076889
 South Africa,1998,18421588
-South Asia (WB),1998,16153615
+South Asia,1998,16153615
 South Korea,1998,12075851
 South Sudan,1998,7729901
 South-East Asia Region (WHO),1998,15459012
 Spain,1998,1070093
 Sri Lanka,1998,9204563
-Sub-Saharan Africa (WB),1998,8340758
+Sub-Saharan Africa,1998,8340758
 Sudan,1998,119905365
 Suriname,1998,9263965
 Sweden,1998,8899239
@@ -2046,13 +2046,13 @@ Vanuatu,1998,18067221
 Venezuela,1998,8517965
 Vietnam,1998,13137857
 Wales,1998,16741885
-Western Pacific Region (WHO),1998,17387692
+Western Pacific Region ,1998,17387692
 World,1998,14484201
 Yemen,1998,16107324
 Zambia,1998,12535488
 Zimbabwe,1998,15157224
 Afghanistan,1999,81666885
-African Region (WHO),1999,8125891
+African Region,1999,8125891
 Albania,1999,114757904
 Algeria,1999,11558713
 American Samoa,1999,14161848
@@ -2089,10 +2089,10 @@ Cape Verde,1999,47665073
 Central African Republic,1999,11952681
 Chad,1999,7281737
 Chile,1999,7002352
-China,1999,20883228
+People’s Republic of China,1999,20883228
 Colombia,1999,6285196
 Comoros,1999,84371414
-Congo,1999,8320072
+Republic of the Congo,1999,8320072
 Cook Islands,1999,12018724
 Costa Rica,1999,6797039
 Cote d'Ivoire,1999,83240776
@@ -2100,14 +2100,14 @@ Croatia,1999,17054721
 Cuba,1999,1314998
 Cyprus,1999,12460516
 Czechia,1999,15549619
-Democratic Republic of Congo,1999,62129906
+Democratic Republic of Republic of the Congo,1999,62129906
 Denmark,1999,18368396
 Djibouti,1999,11214244
 Dominica,1999,50434254
 Dominican Republic,1999,7414593
-East Asia & Pacific (WB),1999,1697283
+East Asia & Pacific,1999,1697283
 East Timor,1999,12592094
-Eastern Mediterranean Region (WHO),1999,13812096
+Eastern Eastern Mediterranean Region ,1999,13812096
 Ecuador,1999,49008396
 Egypt,1999,12034626
 El Salvador,1999,30821548
@@ -2117,7 +2117,7 @@ Eritrea,1999,7595476
 Estonia,1999,1528012
 Eswatini,1999,10153858
 Ethiopia,1999,46150223
-Europe & Central Asia (WB),1999,14243178
+Europe & Central Asia,1999,14243178
 European Region (WHO),1999,14228468
 Fiji,1999,18165987
 Finland,1999,8736816
@@ -2216,7 +2216,7 @@ Poland,1999,18084258
 Portugal,1999,8917789
 Puerto Rico,1999,60553757
 Qatar,1999,10990286
-Region of the Americas (WHO),1999,12151906
+Region of the Americas,1999,12151906
 Romania,1999,15965134
 Russia,1999,1721817
 Rwanda,1999,1728832
@@ -2238,13 +2238,13 @@ Slovenia,1999,11271129
 Solomon Islands,1999,36072717
 Somalia,1999,10581089
 South Africa,1999,17368947
-South Asia (WB),1999,1544659
+South Asia,1999,1544659
 South Korea,1999,11939951
 South Sudan,1999,7546235
 South-East Asia Region (WHO),1999,14889352
 Spain,1999,10644758
 Sri Lanka,1999,9081065
-Sub-Saharan Africa (WB),1999,8135175
+Sub-Saharan Africa,1999,8135175
 Sudan,1999,1179234
 Suriname,1999,9770071
 Sweden,1999,87472115
@@ -2274,13 +2274,13 @@ Vanuatu,1999,1793089
 Venezuela,1999,8249299
 Vietnam,1999,13146626
 Wales,1999,16558665
-Western Pacific Region (WHO),1999,17287297
+Western Pacific Region ,1999,17287297
 World,1999,14308612
 Yemen,1999,15991698
 Zambia,1999,12453893
 Zimbabwe,1999,1528623
 Afghanistan,2000,8236345
-African Region (WHO),2000,8034015
+African Region,2000,8034015
 Albania,2000,1131812
 Algeria,2000,1119603
 American Samoa,2000,13915547
@@ -2317,10 +2317,10 @@ Cape Verde,2000,4638844
 Central African Republic,2000,11710891
 Chad,2000,7304236
 Chile,2000,66987595
-China,2000,20971568
+People’s Republic of China,2000,20971568
 Colombia,2000,60006332
 Comoros,2000,83379486
-Congo,2000,7906406
+Republic of the Congo,2000,7906406
 Cook Islands,2000,11794244
 Costa Rica,2000,63754692
 Cote d'Ivoire,2000,83718445
@@ -2328,14 +2328,14 @@ Croatia,2000,15955008
 Cuba,2000,12677542
 Cyprus,2000,12094442
 Czechia,2000,15162526
-Democratic Republic of Congo,2000,60842484
+Democratic Republic of Republic of the Congo,2000,60842484
 Denmark,2000,17582312
 Djibouti,2000,11077295
 Dominica,2000,4951495
 Dominican Republic,2000,7279885
-East Asia & Pacific (WB),2000,16928105
+East Asia & Pacific,2000,16928105
 East Timor,2000,126314285
-Eastern Mediterranean Region (WHO),2000,1355381
+Eastern Eastern Mediterranean Region ,2000,1355381
 Ecuador,2000,46787457
 Egypt,2000,11587678
 El Salvador,2000,30153404
@@ -2345,7 +2345,7 @@ Eritrea,2000,7421262
 Estonia,2000,14774014
 Eswatini,2000,105372635
 Ethiopia,2000,43493004
-Europe & Central Asia (WB),2000,14034108
+Europe & Central Asia,2000,14034108
 European Region (WHO),2000,14017783
 Fiji,2000,18136049
 Finland,2000,83740715
@@ -2444,7 +2444,7 @@ Poland,2000,1691211
 Portugal,2000,85885666
 Puerto Rico,2000,5834705
 Qatar,2000,10015174
-Region of the Americas (WHO),2000,11799478
+Region of the Americas,2000,11799478
 Romania,2000,15290033
 Russia,2000,18154468
 Rwanda,2000,16362666
@@ -2466,13 +2466,13 @@ Slovenia,2000,10735723
 Solomon Islands,2000,35808704
 Somalia,2000,10395305
 South Africa,2000,17416725
-South Asia (WB),2000,15267845
+South Asia,2000,15267845
 South Korea,2000,11605526
 South Sudan,2000,7384887
 South-East Asia Region (WHO),2000,14695787
 Spain,2000,10159379
 Sri Lanka,2000,8912701
-Sub-Saharan Africa (WB),2000,80506905
+Sub-Saharan Africa,2000,80506905
 Sudan,2000,11598148
 Suriname,2000,99771034
 Sweden,2000,850614
@@ -2502,13 +2502,13 @@ Vanuatu,2000,17316328
 Venezuela,2000,79897156
 Vietnam,2000,13157335
 Wales,2000,1589747
-Western Pacific Region (WHO),2000,1726305
+Western Pacific Region ,2000,1726305
 World,2000,1414696
 Yemen,2000,15795477
 Zambia,2000,123805885
 Zimbabwe,2000,15584071
 Afghanistan,2001,8289723
-African Region (WHO),2001,7823698
+African Region,2001,7823698
 Albania,2001,107383705
 Algeria,2001,108513
 American Samoa,2001,13769965
@@ -2545,10 +2545,10 @@ Cape Verde,2001,4539919
 Central African Republic,2001,1152237
 Chad,2001,7320989
 Chile,2001,6682557
-China,2001,20727354
+People’s Republic of China,2001,20727354
 Colombia,2001,58019123
 Comoros,2001,803818
-Congo,2001,7451762
+Republic of the Congo,2001,7451762
 Cook Islands,2001,11551752
 Costa Rica,2001,62151585
 Cote d'Ivoire,2001,82990555
@@ -2556,14 +2556,14 @@ Croatia,2001,15338078
 Cuba,2001,126105286
 Cyprus,2001,11667428
 Czechia,2001,14558577
-Democratic Republic of Congo,2001,593093
+Democratic Republic of Republic of the Congo,2001,593093
 Denmark,2001,1735473
 Djibouti,2001,10893081
 Dominica,2001,48578274
 Dominican Republic,2001,7253017
-East Asia & Pacific (WB),2001,16675111
+East Asia & Pacific,2001,16675111
 East Timor,2001,12551818
-Eastern Mediterranean Region (WHO),2001,13430313
+Eastern Eastern Mediterranean Region ,2001,13430313
 Ecuador,2001,45139355
 Egypt,2001,12106378
 El Salvador,2001,28920778
@@ -2573,7 +2573,7 @@ Eritrea,2001,7153623
 Estonia,2001,15117378
 Eswatini,2001,10857705
 Ethiopia,2001,4064313
-Europe & Central Asia (WB),2001,13774356
+Europe & Central Asia,2001,13774356
 European Region (WHO),2001,1375723
 Fiji,2001,17311154
 Finland,2001,8000307
@@ -2672,7 +2672,7 @@ Poland,2001,16285992
 Portugal,2001,83070724
 Puerto Rico,2001,5846489
 Qatar,2001,9586789
-Region of the Americas (WHO),2001,115040474
+Region of the Americas,2001,115040474
 Romania,2001,155172
 Russia,2001,1840902
 Rwanda,2001,15308981
@@ -2694,13 +2694,13 @@ Slovenia,2001,10637024
 Solomon Islands,2001,3554165
 Somalia,2001,10158826
 South Africa,2001,1656822
-South Asia (WB),2001,15103105
+South Asia,2001,15103105
 South Korea,2001,11101127
 South Sudan,2001,7130087
 South-East Asia Region (WHO),2001,14472244
 Spain,2001,9831198
 Sri Lanka,2001,8406153
-Sub-Saharan Africa (WB),2001,7846441
+Sub-Saharan Africa,2001,7846441
 Sudan,2001,11419409
 Suriname,2001,10165027
 Sweden,2001,8329394
@@ -2730,13 +2730,13 @@ Vanuatu,2001,17205185
 Venezuela,2001,7883145
 Vietnam,2001,13216089
 Wales,2001,15304385
-Western Pacific Region (WHO),2001,17024167
+Western Pacific Region ,2001,17024167
 World,2001,13911653
 Yemen,2001,15521727
 Zambia,2001,12151135
 Zimbabwe,2001,15521024
 Afghanistan,2002,8154692
-African Region (WHO),2002,7655963
+African Region,2002,7655963
 Albania,2002,109250595
 Algeria,2002,105266975
 American Samoa,2002,1363374
@@ -2773,10 +2773,10 @@ Cape Verde,2002,44448338
 Central African Republic,2002,11349857
 Chad,2002,7355943
 Chile,2002,649364
-China,2002,20445764
+People’s Republic of China,2002,20445764
 Colombia,2002,62096317
 Comoros,2002,7797525
-Congo,2002,7025307
+Republic of the Congo,2002,7025307
 Cook Islands,2002,11367566
 Costa Rica,2002,5787295
 Cote d'Ivoire,2002,8266597
@@ -2784,14 +2784,14 @@ Croatia,2002,15083224
 Cuba,2002,11871795
 Cyprus,2002,11366785
 Czechia,2002,14338585
-Democratic Republic of Congo,2002,56981228
+Democratic Republic of Republic of the Congo,2002,56981228
 Denmark,2002,17095328
 Djibouti,2002,10716538
 Dominica,2002,4818146
 Dominican Republic,2002,7336055
-East Asia & Pacific (WB),2002,1644662
+East Asia & Pacific,2002,1644662
 East Timor,2002,12515863
-Eastern Mediterranean Region (WHO),2002,13326617
+Eastern Eastern Mediterranean Region ,2002,13326617
 Ecuador,2002,4671245
 Egypt,2002,12583861
 El Salvador,2002,27218012
@@ -2801,7 +2801,7 @@ Eritrea,2002,7067671
 Estonia,2002,14449367
 Eswatini,2002,11083544
 Ethiopia,2002,38064808
-Europe & Central Asia (WB),2002,13708405
+Europe & Central Asia,2002,13708405
 European Region (WHO),2002,1369024
 Fiji,2002,16409523
 Finland,2002,7744023
@@ -2900,7 +2900,7 @@ Poland,2002,15708759
 Portugal,2002,8080581
 Puerto Rico,2002,54156185
 Qatar,2002,9683293
-Region of the Americas (WHO),2002,11264094
+Region of the Americas,2002,11264094
 Romania,2002,15594998
 Russia,2002,18919614
 Rwanda,2002,14590608
@@ -2922,13 +2922,13 @@ Slovenia,2002,10036059
 Solomon Islands,2002,35063925
 Somalia,2002,10007127
 South Africa,2002,1607985
-South Asia (WB),2002,148057
+South Asia,2002,148057
 South Korea,2002,10702077
 South Sudan,2002,6983763
 South-East Asia Region (WHO),2002,14208351
 Spain,2002,9645152
 Sri Lanka,2002,808166
-Sub-Saharan Africa (WB),2002,7688276
+Sub-Saharan Africa,2002,7688276
 Sudan,2002,11318697
 Suriname,2002,10322633
 Sweden,2002,8165076
@@ -2958,13 +2958,13 @@ Vanuatu,2002,16514821
 Venezuela,2002,7854106
 Vietnam,2002,13260649
 Wales,2002,14980531
-Western Pacific Region (WHO),2002,16782823
+Western Pacific Region ,2002,16782823
 World,2002,13733952
 Yemen,2002,15380397
 Zambia,2002,119691696
 Zimbabwe,2002,15638904
 Afghanistan,2003,8083506
-African Region (WHO),2003,749345
+African Region,2003,749345
 Albania,2003,1137467
 Algeria,2003,10181491
 American Samoa,2003,13464938
@@ -3001,10 +3001,10 @@ Cape Verde,2003,43403873
 Central African Republic,2003,11108273
 Chad,2003,7364562
 Chile,2003,6431466
-China,2003,20086241
+People’s Republic of China,2003,20086241
 Colombia,2003,55897232
 Comoros,2003,7416651
-Congo,2003,682487
+Republic of the Congo,2003,682487
 Cook Islands,2003,11127483
 Costa Rica,2003,5690285
 Cote d'Ivoire,2003,822216
@@ -3012,14 +3012,14 @@ Croatia,2003,1510771
 Cuba,2003,11962241
 Cyprus,2003,1100377
 Czechia,2003,14456767
-Democratic Republic of Congo,2003,56394966
+Democratic Republic of Republic of the Congo,2003,56394966
 Denmark,2003,16599304
 Djibouti,2003,10394447
 Dominica,2003,4782308
 Dominican Republic,2003,770625
-East Asia & Pacific (WB),2003,16191805
+East Asia & Pacific,2003,16191805
 East Timor,2003,12639073
-Eastern Mediterranean Region (WHO),2003,1325194
+Eastern Eastern Mediterranean Region ,2003,1325194
 Ecuador,2003,46607105
 Egypt,2003,13246391
 El Salvador,2003,27861248
@@ -3029,7 +3029,7 @@ Eritrea,2003,68771614
 Estonia,2003,13724368
 Eswatini,2003,112138435
 Ethiopia,2003,35918114
-Europe & Central Asia (WB),2003,13544768
+Europe & Central Asia,2003,13544768
 European Region (WHO),2003,13524736
 Fiji,2003,16153468
 Finland,2003,7481148
@@ -3128,7 +3128,7 @@ Poland,2003,15297025
 Portugal,2003,7848561
 Puerto Rico,2003,53211647
 Qatar,2003,9622131
-Region of the Americas (WHO),2003,10961815
+Region of the Americas,2003,10961815
 Romania,2003,1525414
 Russia,2003,1923982
 Rwanda,2003,13803963
@@ -3150,13 +3150,13 @@ Slovenia,2003,9894335
 Solomon Islands,2003,34711575
 Somalia,2003,9830463
 South Africa,2003,15693938
-South Asia (WB),2003,14339526
+South Asia,2003,14339526
 South Korea,2003,102788994
 South Sudan,2003,6899567
 South-East Asia Region (WHO),2003,13807935
 Spain,2003,95008354
 Sri Lanka,2003,810519
-Sub-Saharan Africa (WB),2003,7534477
+Sub-Saharan Africa,2003,7534477
 Sudan,2003,11167726
 Suriname,2003,10281572
 Sweden,2003,795013
@@ -3186,13 +3186,13 @@ Vanuatu,2003,1602757
 Venezuela,2003,7964606
 Vietnam,2003,13293233
 Wales,2003,14641664
-Western Pacific Region (WHO),2003,16512161
+Western Pacific Region ,2003,16512161
 World,2003,13492728
 Yemen,2003,15187334
 Zambia,2003,11761466
 Zimbabwe,2003,15655705
 Afghanistan,2004,8039753
-African Region (WHO),2004,73017586
+African Region,2004,73017586
 Albania,2004,11314623
 Algeria,2004,9909454
 American Samoa,2004,13265178
@@ -3229,10 +3229,10 @@ Cape Verde,2004,42458363
 Central African Republic,2004,10851218
 Chad,2004,728375
 Chile,2004,63081825
-China,2004,19955438
+People’s Republic of China,2004,19955438
 Colombia,2004,53621754
 Comoros,2004,70336
-Congo,2004,6565593
+Republic of the Congo,2004,6565593
 Cook Islands,2004,10861903
 Costa Rica,2004,56081356
 Cote d'Ivoire,2004,81972664
@@ -3240,14 +3240,14 @@ Croatia,2004,1426084
 Cuba,2004,1199781
 Cyprus,2004,108367905
 Czechia,2004,13786266
-Democratic Republic of Congo,2004,544361
+Democratic Republic of Republic of the Congo,2004,544361
 Denmark,2004,1603003
 Djibouti,2004,104038536
 Dominica,2004,4696376
 Dominican Republic,2004,8205333
-East Asia & Pacific (WB),2004,16064581
+East Asia & Pacific,2004,16064581
 East Timor,2004,12440821
-Eastern Mediterranean Region (WHO),2004,13041342
+Eastern Eastern Mediterranean Region ,2004,13041342
 Ecuador,2004,4660788
 Egypt,2004,13210875
 El Salvador,2004,28647474
@@ -3257,7 +3257,7 @@ Eritrea,2004,6731149
 Estonia,2004,13293199
 Eswatini,2004,112388336
 Ethiopia,2004,3405802
-Europe & Central Asia (WB),2004,130882
+Europe & Central Asia,2004,130882
 European Region (WHO),2004,1306773
 Fiji,2004,15022717
 Finland,2004,7215427
@@ -3356,7 +3356,7 @@ Poland,2004,15100435
 Portugal,2004,7409405
 Puerto Rico,2004,5286366
 Qatar,2004,9117963
-Region of the Americas (WHO),2004,10557516
+Region of the Americas,2004,10557516
 Romania,2004,1453227
 Russia,2004,18608939
 Rwanda,2004,13110744
@@ -3378,13 +3378,13 @@ Slovenia,2004,9299363
 Solomon Islands,2004,34348917
 Somalia,2004,9668271
 South Africa,2004,14951573
-South Asia (WB),2004,13435228
+South Asia,2004,13435228
 South Korea,2004,9866053
 South Sudan,2004,68203636
 South-East Asia Region (WHO),2004,13075186
 Spain,2004,91738396
 Sri Lanka,2004,7859069
-Sub-Saharan Africa (WB),2004,7347377
+Sub-Saharan Africa,2004,7347377
 Sudan,2004,110308945
 Suriname,2004,9985615
 Sweden,2004,7792532
@@ -3414,13 +3414,13 @@ Vanuatu,2004,15894757
 Venezuela,2004,73771835
 Vietnam,2004,13312788
 Wales,2004,14175127
-Western Pacific Region (WHO),2004,16375499
+Western Pacific Region ,2004,16375499
 World,2004,13134978
 Yemen,2004,15021407
 Zambia,2004,11519956
 Zimbabwe,2004,15784392
 Afghanistan,2005,797832
-African Region (WHO),2005,711136
+African Region,2005,711136
 Albania,2005,108335754
 Algeria,2005,9669759
 American Samoa,2005,13074992
@@ -3457,10 +3457,10 @@ Cape Verde,2005,4156387
 Central African Republic,2005,10616551
 Chad,2005,7129395
 Chile,2005,61094955
-China,2005,1940491
+People’s Republic of China,2005,1940491
 Colombia,2005,49553555
 Comoros,2005,6971068
-Congo,2005,62920715
+Republic of the Congo,2005,62920715
 Cook Islands,2005,10537454
 Costa Rica,2005,50730587
 Cote d'Ivoire,2005,8070228
@@ -3468,14 +3468,14 @@ Croatia,2005,14306746
 Cuba,2005,12139717
 Cyprus,2005,108052605
 Czechia,2005,13417198
-Democratic Republic of Congo,2005,52526245
+Democratic Republic of Republic of the Congo,2005,52526245
 Denmark,2005,15420125
 Djibouti,2005,10203832
 Dominica,2005,45794086
 Dominican Republic,2005,8488757
-East Asia & Pacific (WB),2005,15694298
+East Asia & Pacific,2005,15694298
 East Timor,2005,12192118
-Eastern Mediterranean Region (WHO),2005,127936646
+Eastern Eastern Mediterranean Region ,2005,127936646
 Ecuador,2005,474714
 Egypt,2005,127903206
 El Salvador,2005,28717209
@@ -3485,7 +3485,7 @@ Eritrea,2005,6557548
 Estonia,2005,12654662
 Eswatini,2005,11082535
 Ethiopia,2005,3228684
-Europe & Central Asia (WB),2005,12988689
+Europe & Central Asia,2005,12988689
 European Region (WHO),2005,12966699
 Fiji,2005,14848538
 Finland,2005,6972547
@@ -3584,7 +3584,7 @@ Poland,2005,14749883
 Portugal,2005,7227262
 Puerto Rico,2005,52027966
 Qatar,2005,9072363
-Region of the Americas (WHO),2005,10249646
+Region of the Americas,2005,10249646
 Romania,2005,14177675
 Russia,2005,19302962
 Rwanda,2005,12437702
@@ -3606,13 +3606,13 @@ Slovenia,2005,86114426
 Solomon Islands,2005,34096365
 Somalia,2005,94849525
 South Africa,2005,1441462
-South Asia (WB),2005,13320694
+South Asia,2005,13320694
 South Korea,2005,9393527
 South Sudan,2005,6702452
 South-East Asia Region (WHO),2005,12977179
 Spain,2005,8990561
 Sri Lanka,2005,7751288
-Sub-Saharan Africa (WB),2005,7159604
+Sub-Saharan Africa,2005,7159604
 Sudan,2005,10885377
 Suriname,2005,9555056
 Sweden,2005,7560164
@@ -3642,13 +3642,13 @@ Vanuatu,2005,16143439
 Venezuela,2005,7249532
 Vietnam,2005,13304256
 Wales,2005,13754567
-Western Pacific Region (WHO),2005,15968027
+Western Pacific Region ,2005,15968027
 World,2005,1289495
 Yemen,2005,14845604
 Zambia,2005,1125108
 Zimbabwe,2005,15775458
 Afghanistan,2006,7946745
-African Region (WHO),2006,69701065
+African Region,2006,69701065
 Albania,2006,10081164
 Algeria,2006,94355
 American Samoa,2006,12935837
@@ -3685,10 +3685,10 @@ Cape Verde,2006,36855755
 Central African Republic,2006,10409631
 Chad,2006,7032446
 Chile,2006,5940167
-China,2006,18212294
+People’s Republic of China,2006,18212294
 Colombia,2006,48708286
 Comoros,2006,6640421
-Congo,2006,61347923
+Republic of the Congo,2006,61347923
 Cook Islands,2006,10232826
 Costa Rica,2006,51885098
 Cote d'Ivoire,2006,79575874
@@ -3696,14 +3696,14 @@ Croatia,2006,13727975
 Cuba,2006,115358
 Cyprus,2006,10706756
 Czechia,2006,12734662
-Democratic Republic of Congo,2006,51469597
+Democratic Republic of Republic of the Congo,2006,51469597
 Denmark,2006,15116646
 Djibouti,2006,10005029
 Dominica,2006,45433918
 Dominican Republic,2006,8636413
-East Asia & Pacific (WB),2006,14918417
+East Asia & Pacific,2006,14918417
 East Timor,2006,11886444
-Eastern Mediterranean Region (WHO),2006,12566745
+Eastern Eastern Mediterranean Region ,2006,12566745
 Ecuador,2006,46957092
 Egypt,2006,12593317
 El Salvador,2006,28889751
@@ -3713,7 +3713,7 @@ Eritrea,2006,6396818
 Estonia,2006,1246154
 Eswatini,2006,10739258
 Ethiopia,2006,30643372
-Europe & Central Asia (WB),2006,1233589
+Europe & Central Asia,2006,1233589
 European Region (WHO),2006,12317433
 Fiji,2006,14773505
 Finland,2006,67274414
@@ -3812,7 +3812,7 @@ Poland,2006,14499384
 Portugal,2006,6990457
 Puerto Rico,2006,49568115
 Qatar,2006,9275132
-Region of the Americas (WHO),2006,9935571
+Region of the Americas,2006,9935571
 Romania,2006,13663046
 Russia,2006,17474
 Rwanda,2006,119224304
@@ -3834,13 +3834,13 @@ Slovenia,2006,8558513
 Solomon Islands,2006,33958286
 Somalia,2006,9273193
 South Africa,2006,14155832
-South Asia (WB),2006,13344633
+South Asia,2006,13344633
 South Korea,2006,8957649
 South Sudan,2006,6647785
 South-East Asia Region (WHO),2006,12989008
 Spain,2006,86633415
 Sri Lanka,2006,7639632
-Sub-Saharan Africa (WB),2006,7020467
+Sub-Saharan Africa,2006,7020467
 Sudan,2006,107298744
 Suriname,2006,90772064
 Sweden,2006,7411208
@@ -3870,13 +3870,13 @@ Vanuatu,2006,16171623
 Venezuela,2006,7404813
 Vietnam,2006,13228674
 Wales,2006,1325702
-Western Pacific Region (WHO),2006,15104637
+Western Pacific Region ,2006,15104637
 World,2006,1242122
 Yemen,2006,1470592
 Zambia,2006,110258446
 Zimbabwe,2006,1576643
 Afghanistan,2007,7944056
-African Region (WHO),2007,6765471
+African Region,2007,6765471
 Albania,2007,9526021
 Algeria,2007,9224777
 American Samoa,2007,12768156
@@ -3913,10 +3913,10 @@ Cape Verde,2007,34754787
 Central African Republic,2007,1013714
 Chad,2007,6966083
 Chile,2007,58428944
-China,2007,17410823
+People’s Republic of China,2007,17410823
 Colombia,2007,4591728
 Comoros,2007,6770143
-Congo,2007,60408447
+Republic of the Congo,2007,60408447
 Cook Islands,2007,9986795
 Costa Rica,2007,45891098
 Cote d'Ivoire,2007,7769729
@@ -3924,14 +3924,14 @@ Croatia,2007,13697095
 Cuba,2007,11482111
 Cyprus,2007,1056233
 Czechia,2007,124602066
-Democratic Republic of Congo,2007,50414074
+Democratic Republic of Republic of the Congo,2007,50414074
 Denmark,2007,1476338
 Djibouti,2007,9895484
 Dominica,2007,45085136
 Dominican Republic,2007,8678102
-East Asia & Pacific (WB),2007,14384464
+East Asia & Pacific,2007,14384464
 East Timor,2007,11734124
-Eastern Mediterranean Region (WHO),2007,12315664
+Eastern Eastern Mediterranean Region ,2007,12315664
 Ecuador,2007,45988586
 Egypt,2007,12403623
 El Salvador,2007,28204092
@@ -3941,7 +3941,7 @@ Eritrea,2007,62197834
 Estonia,2007,12475175
 Eswatini,2007,1047788
 Ethiopia,2007,28995241
-Europe & Central Asia (WB),2007,1199975
+Europe & Central Asia,2007,1199975
 European Region (WHO),2007,11982229
 Fiji,2007,14646915
 Finland,2007,65983284
@@ -4040,7 +4040,7 @@ Poland,2007,14258194
 Portugal,2007,67666145
 Puerto Rico,2007,4847127
 Qatar,2007,9294399
-Region of the Americas (WHO),2007,9639597
+Region of the Americas,2007,9639597
 Romania,2007,1319328
 Russia,2007,16578923
 Rwanda,2007,115388435
@@ -4062,13 +4062,13 @@ Slovenia,2007,82898544
 Solomon Islands,2007,33455817
 Somalia,2007,91741615
 South Africa,2007,13403943
-South Asia (WB),2007,13221642
+South Asia,2007,13221642
 South Korea,2007,8558996
 South Sudan,2007,6558011
 South-East Asia Region (WHO),2007,12891089
 Spain,2007,8521422
 Sri Lanka,2007,743448
-Sub-Saharan Africa (WB),2007,6816709
+Sub-Saharan Africa,2007,6816709
 Sudan,2007,105747795
 Suriname,2007,8783137
 Sweden,2007,72384186
@@ -4098,13 +4098,13 @@ Vanuatu,2007,16272552
 Venezuela,2007,74187035
 Vietnam,2007,13180357
 Wales,2007,12927399
-Western Pacific Region (WHO),2007,14515074
+Western Pacific Region ,2007,14515074
 World,2007,120862404
 Yemen,2007,1452269
 Zambia,2007,10643933
 Zimbabwe,2007,15789775
 Afghanistan,2008,7974432
-African Region (WHO),2008,6598616
+African Region,2008,6598616
 Albania,2008,9575404
 Algeria,2008,9029036
 American Samoa,2008,12702117
@@ -4141,10 +4141,10 @@ Cape Verde,2008,3382048
 Central African Republic,2008,9850937
 Chad,2008,6920866
 Chile,2008,56483757
-China,2008,16987578
+People’s Republic of China,2008,16987578
 Colombia,2008,44851036
 Comoros,2008,6691835
-Congo,2008,59790188
+Republic of the Congo,2008,59790188
 Cook Islands,2008,97060265
 Costa Rica,2008,459502
 Cote d'Ivoire,2008,7619703
@@ -4152,14 +4152,14 @@ Croatia,2008,1373888
 Cuba,2008,11465878
 Cyprus,2008,101354614
 Czechia,2008,1224954
-Democratic Republic of Congo,2008,5007712
+Democratic Republic of Republic of the Congo,2008,5007712
 Denmark,2008,14279176
 Djibouti,2008,974915
 Dominica,2008,44483585
 Dominican Republic,2008,86972855
-East Asia & Pacific (WB),2008,1407951
+East Asia & Pacific,2008,1407951
 East Timor,2008,11576681
-Eastern Mediterranean Region (WHO),2008,12146839
+Eastern Eastern Mediterranean Region ,2008,12146839
 Ecuador,2008,4486109
 Egypt,2008,125160416
 El Salvador,2008,27115433
@@ -4169,7 +4169,7 @@ Eritrea,2008,60804996
 Estonia,2008,113465004
 Eswatini,2008,10253081
 Ethiopia,2008,27455788
-Europe & Central Asia (WB),2008,11835246
+Europe & Central Asia,2008,11835246
 European Region (WHO),2008,11814836
 Fiji,2008,14342303
 Finland,2008,6419378
@@ -4268,7 +4268,7 @@ Poland,2008,13824098
 Portugal,2008,65747406
 Puerto Rico,2008,47026783
 Qatar,2008,9128046
-Region of the Americas (WHO),2008,94174614
+Region of the Americas,2008,94174614
 Romania,2008,1323013
 Russia,2008,16825551
 Rwanda,2008,112218094
@@ -4290,13 +4290,13 @@ Slovenia,2008,7995492
 Solomon Islands,2008,32105008
 Somalia,2008,9062299
 South Africa,2008,12818588
-South Asia (WB),2008,1311678
+South Asia,2008,1311678
 South Korea,2008,8192034
 South Sudan,2008,6475216
 South-East Asia Region (WHO),2008,12793541
 Spain,2008,8299473
 Sri Lanka,2008,7365506
-Sub-Saharan Africa (WB),2008,66522995
+Sub-Saharan Africa,2008,66522995
 Sudan,2008,10456367
 Suriname,2008,8637748
 Sweden,2008,7064445
@@ -4326,13 +4326,13 @@ Vanuatu,2008,16303564
 Venezuela,2008,74079895
 Vietnam,2008,13072543
 Wales,2008,12650454
-Western Pacific Region (WHO),2008,14192361
+Western Pacific Region ,2008,14192361
 World,2008,11884736
 Yemen,2008,14444322
 Zambia,2008,10317207
 Zimbabwe,2008,16023322
 Afghanistan,2009,7973439
-African Region (WHO),2009,6452528
+African Region,2009,6452528
 Albania,2009,94377495
 Algeria,2009,8851929
 American Samoa,2009,12631778
@@ -4369,10 +4369,10 @@ Cape Verde,2009,3298996
 Central African Republic,2009,9631513
 Chad,2009,6846601
 Chile,2009,56839127
-China,2009,16671098
+People’s Republic of China,2009,16671098
 Colombia,2009,45134785
 Comoros,2009,6429798
-Congo,2009,58919052
+Republic of the Congo,2009,58919052
 Cook Islands,2009,9530746
 Costa Rica,2009,4416475
 Cote d'Ivoire,2009,7518005
@@ -4380,14 +4380,14 @@ Croatia,2009,13119054
 Cuba,2009,11433199
 Cyprus,2009,9868134
 Czechia,2009,11934211
-Democratic Republic of Congo,2009,49352615
+Democratic Republic of Republic of the Congo,2009,49352615
 Denmark,2009,13987904
 Djibouti,2009,9552871
 Dominica,2009,441158
 Dominican Republic,2009,87344635
-East Asia & Pacific (WB),2009,13829796
+East Asia & Pacific,2009,13829796
 East Timor,2009,117686806
-Eastern Mediterranean Region (WHO),2009,11946443
+Eastern Eastern Mediterranean Region ,2009,11946443
 Ecuador,2009,42925365
 Egypt,2009,12695519
 El Salvador,2009,28218466
@@ -4397,7 +4397,7 @@ Eritrea,2009,5927095
 Estonia,2009,10742471
 Eswatini,2009,99707596
 Ethiopia,2009,26070597
-Europe & Central Asia (WB),2009,114082184
+Europe & Central Asia,2009,114082184
 European Region (WHO),2009,11388947
 Fiji,2009,136234
 Finland,2009,6302506
@@ -4496,7 +4496,7 @@ Poland,2009,1338043
 Portugal,2009,64133484
 Puerto Rico,2009,47139137
 Qatar,2009,8876456
-Region of the Americas (WHO),2009,9173205
+Region of the Americas,2009,9173205
 Romania,2009,13151263
 Russia,2009,16013954
 Rwanda,2009,10855671
@@ -4518,13 +4518,13 @@ Slovenia,2009,7684578
 Solomon Islands,2009,32464117
 Somalia,2009,8936651
 South Africa,2009,12312703
-South Asia (WB),2009,124071846
+South Asia,2009,124071846
 South Korea,2009,7864743
 South Sudan,2009,6380624
 South-East Asia Region (WHO),2009,122145
 Spain,2009,8034194
 Sri Lanka,2009,6901365
-Sub-Saharan Africa (WB),2009,6506774
+Sub-Saharan Africa,2009,6506774
 Sudan,2009,10346062
 Suriname,2009,8409654
 Sweden,2009,69363014
@@ -4554,13 +4554,13 @@ Vanuatu,2009,16191896
 Venezuela,2009,7138562
 Vietnam,2009,12936026
 Wales,2009,122727905
-Western Pacific Region (WHO),2009,13930507
+Western Pacific Region ,2009,13930507
 World,2009,115736786
 Yemen,2009,1419802
 Zambia,2009,99919395
 Zimbabwe,2009,15953888
 Afghanistan,2010,79720276
-African Region (WHO),2010,63059628
+African Region,2010,63059628
 Albania,2010,9399674
 Algeria,2010,8649803
 American Samoa,2010,12483233
@@ -4597,10 +4597,10 @@ Cape Verde,2010,31986168
 Central African Republic,2010,94974625
 Chad,2010,67752426
 Chile,2010,56502014
-China,2010,16425575
+People’s Republic of China,2010,16425575
 Colombia,2010,43300205
 Comoros,2010,6214379
-Congo,2010,5776922
+Republic of the Congo,2010,5776922
 Cook Islands,2010,951752
 Costa Rica,2010,48844658
 Cote d'Ivoire,2010,743642
@@ -4608,14 +4608,14 @@ Croatia,2010,12675884
 Cuba,2010,11415974
 Cyprus,2010,949894
 Czechia,2010,116810616
-Democratic Republic of Congo,2010,48534676
+Democratic Republic of Republic of the Congo,2010,48534676
 Denmark,2010,13559871
 Djibouti,2010,94860725
 Dominica,2010,44181644
 Dominican Republic,2010,8738097
-East Asia & Pacific (WB),2010,13629529
+East Asia & Pacific,2010,13629529
 East Timor,2010,11873193
-Eastern Mediterranean Region (WHO),2010,11715872
+Eastern Eastern Mediterranean Region ,2010,11715872
 Ecuador,2010,4204711
 Egypt,2010,126247574
 El Salvador,2010,26120012
@@ -4625,7 +4625,7 @@ Eritrea,2010,5767182
 Estonia,2010,9807408
 Eswatini,2010,9553064
 Ethiopia,2010,25063292
-Europe & Central Asia (WB),2010,11204592
+Europe & Central Asia,2010,11204592
 European Region (WHO),2010,11184675
 Fiji,2010,13537471
 Finland,2010,61779427
@@ -4724,7 +4724,7 @@ Poland,2010,12759897
 Portugal,2010,62345253
 Puerto Rico,2010,43641212
 Qatar,2010,855298
-Region of the Americas (WHO),2010,8881441
+Region of the Americas,2010,8881441
 Romania,2010,12885425
 Russia,2010,1622205
 Rwanda,2010,10657859
@@ -4746,13 +4746,13 @@ Slovenia,2010,75571365
 Solomon Islands,2010,3211404
 Somalia,2010,87971825
 South Africa,2010,118398895
-South Asia (WB),2010,118765305
+South Asia,2010,118765305
 South Korea,2010,7621639
 South Sudan,2010,62899857
 South-East Asia Region (WHO),2010,11775568
 Spain,2010,7795428
 Sri Lanka,2010,6743547
-Sub-Saharan Africa (WB),2010,63626938
+Sub-Saharan Africa,2010,63626938
 Sudan,2010,10234529
 Suriname,2010,8286431
 Sweden,2010,67970245
@@ -4782,13 +4782,13 @@ Vanuatu,2010,16085104
 Venezuela,2010,6434556
 Vietnam,2010,127431015
 Wales,2010,11876448
-Western Pacific Region (WHO),2010,13726402
+Western Pacific Region ,2010,13726402
 World,2010,11342391
 Yemen,2010,13879973
 Zambia,2010,9827215
 Zimbabwe,2010,15800394
 Afghanistan,2011,7984687
-African Region (WHO),2011,6149343
+African Region,2011,6149343
 Albania,2011,9548244
 Algeria,2011,8519544
 American Samoa,2011,123285995
@@ -4825,10 +4825,10 @@ Cape Verde,2011,31757757
 Central African Republic,2011,9329083
 Chad,2011,6701428
 Chile,2011,5491362
-China,2011,1594755
+People’s Republic of China,2011,1594755
 Colombia,2011,4034643
 Comoros,2011,6214436
-Congo,2011,57276455
+Republic of the Congo,2011,57276455
 Cook Islands,2011,9502648
 Costa Rica,2011,45601833
 Cote d'Ivoire,2011,7353945
@@ -4836,14 +4836,14 @@ Croatia,2011,123532715
 Cuba,2011,10666205
 Cyprus,2011,9067281
 Czechia,2011,11417487
-Democratic Republic of Congo,2011,4812127
+Democratic Republic of Republic of the Congo,2011,4812127
 Denmark,2011,1294065
 Djibouti,2011,9413891
 Dominica,2011,4445663
 Dominican Republic,2011,87461586
-East Asia & Pacific (WB),2011,13301575
+East Asia & Pacific,2011,13301575
 East Timor,2011,12146798
-Eastern Mediterranean Region (WHO),2011,1149836
+Eastern Eastern Mediterranean Region ,2011,1149836
 Ecuador,2011,4072738
 Egypt,2011,12661333
 El Salvador,2011,26751839
@@ -4853,7 +4853,7 @@ Eritrea,2011,56182705
 Estonia,2011,976877
 Eswatini,2011,9116758
 Ethiopia,2011,24252844
-Europe & Central Asia (WB),2011,108024315
+Europe & Central Asia,2011,108024315
 European Region (WHO),2011,10783672
 Fiji,2011,13395699
 Finland,2011,59938805
@@ -4952,7 +4952,7 @@ Poland,2011,12390273
 Portugal,2011,60505634
 Puerto Rico,2011,44676395
 Qatar,2011,829804
-Region of the Americas (WHO),2011,8664782
+Region of the Americas,2011,8664782
 Romania,2011,11953437
 Russia,2011,15051923
 Rwanda,2011,10498171
@@ -4974,13 +4974,13 @@ Slovenia,2011,73094795
 Solomon Islands,2011,32708096
 Somalia,2011,8661204
 South Africa,2011,11098598
-South Asia (WB),2011,11563957
+South Asia,2011,11563957
 South Korea,2011,7357564
 South Sudan,2011,6197455
 South-East Asia Region (WHO),2011,11503366
 Spain,2011,7660948
 Sri Lanka,2011,6658909
-Sub-Saharan Africa (WB),2011,62028004
+Sub-Saharan Africa,2011,62028004
 Sudan,2011,10103074
 Suriname,2011,7977327
 Sweden,2011,6719791
@@ -5010,13 +5010,13 @@ Vanuatu,2011,1614449
 Venezuela,2011,62653503
 Vietnam,2011,12566106
 Wales,2011,115677376
-Western Pacific Region (WHO),2011,1338295
+Western Pacific Region ,2011,1338295
 World,2011,11066242
 Yemen,2011,13794987
 Zambia,2011,9621765
 Zimbabwe,2011,15440471
 Afghanistan,2012,8019942
-African Region (WHO),2012,60026306
+African Region,2012,60026306
 Albania,2012,9571461
 Algeria,2012,8376047
 American Samoa,2012,12213202
@@ -5053,10 +5053,10 @@ Cape Verde,2012,31387064
 Central African Republic,2012,9080358
 Chad,2012,6600798
 Chile,2012,53662094
-China,2012,15376875
+People’s Republic of China,2012,15376875
 Colombia,2012,38975784
 Comoros,2012,61365555
-Congo,2012,57602127
+Republic of the Congo,2012,57602127
 Cook Islands,2012,9421547
 Costa Rica,2012,44368767
 Cote d'Ivoire,2012,727347
@@ -5064,14 +5064,14 @@ Croatia,2012,12180655
 Cuba,2012,10826996
 Cyprus,2012,8800671
 Czechia,2012,11087524
-Democratic Republic of Congo,2012,4754676
+Democratic Republic of Republic of the Congo,2012,4754676
 Denmark,2012,12475254
 Djibouti,2012,93462975
 Dominica,2012,4517731
 Dominican Republic,2012,91066696
-East Asia & Pacific (WB),2012,12897617
+East Asia & Pacific,2012,12897617
 East Timor,2012,123223076
-Eastern Mediterranean Region (WHO),2012,11306367
+Eastern Eastern Mediterranean Region ,2012,11306367
 Ecuador,2012,39847694
 Egypt,2012,127119865
 El Salvador,2012,2497217
@@ -5081,7 +5081,7 @@ Eritrea,2012,54859684
 Estonia,2012,9568932
 Eswatini,2012,8781804
 Ethiopia,2012,23591412
-Europe & Central Asia (WB),2012,10575972
+Europe & Central Asia,2012,10575972
 European Region (WHO),2012,10557163
 Fiji,2012,13215263
 Finland,2012,5866763
@@ -5180,7 +5180,7 @@ Poland,2012,12253175
 Portugal,2012,59088577
 Puerto Rico,2012,41277683
 Qatar,2012,8085714
-Region of the Americas (WHO),2012,8435676
+Region of the Americas,2012,8435676
 Romania,2012,11884931
 Russia,2012,14593912
 Rwanda,2012,104240456
@@ -5202,13 +5202,13 @@ Slovenia,2012,7325714
 Solomon Islands,2012,32776135
 Somalia,2012,8504217
 South Africa,2012,10428897
-South Asia (WB),2012,11359126
+South Asia,2012,11359126
 South Korea,2012,7110626
 South Sudan,2012,6116295
 South-East Asia Region (WHO),2012,112998055
 Spain,2012,75573296
 Sri Lanka,2012,6460511
-Sub-Saharan Africa (WB),2012,6053289
+Sub-Saharan Africa,2012,6053289
 Sudan,2012,10000946
 Suriname,2012,7726354
 Sweden,2012,6596245
@@ -5238,13 +5238,13 @@ Vanuatu,2012,15999854
 Venezuela,2012,62414433
 Vietnam,2012,123512314
 Wales,2012,11307856
-Western Pacific Region (WHO),2012,12957773
+Western Pacific Region ,2012,12957773
 World,2012,1080731
 Yemen,2012,13649806
 Zambia,2012,9300451
 Zimbabwe,2012,15047769
 Afghanistan,2013,8031174
-African Region (WHO),2013,5859537
+African Region,2013,5859537
 Albania,2013,96554535
 Algeria,2013,81952484
 American Samoa,2013,1217059
@@ -5281,10 +5281,10 @@ Cape Verde,2013,30717236
 Central African Republic,2013,8963524
 Chad,2013,6444826
 Chile,2013,52748577
-China,2013,14804036
+People’s Republic of China,2013,14804036
 Colombia,2013,37576187
 Comoros,2013,60514236
-Congo,2013,5770088
+Republic of the Congo,2013,5770088
 Cook Islands,2013,9310163
 Costa Rica,2013,43832127
 Cote d'Ivoire,2013,7254612
@@ -5292,14 +5292,14 @@ Croatia,2013,11550406
 Cuba,2013,10775506
 Cyprus,2013,8637239
 Czechia,2013,107833115
-Democratic Republic of Congo,2013,46575863
+Democratic Republic of Republic of the Congo,2013,46575863
 Denmark,2013,12052525
 Djibouti,2013,9264297
 Dominica,2013,4513215
 Dominican Republic,2013,9557869
-East Asia & Pacific (WB),2013,12488677
+East Asia & Pacific,2013,12488677
 East Timor,2013,12476659
-Eastern Mediterranean Region (WHO),2013,111540245
+Eastern Eastern Mediterranean Region ,2013,111540245
 Ecuador,2013,38887154
 Egypt,2013,12359268
 El Salvador,2013,2592611
@@ -5309,7 +5309,7 @@ Eritrea,2013,5343239
 Estonia,2013,8954469
 Eswatini,2013,8413341
 Ethiopia,2013,22908213
-Europe & Central Asia (WB),2013,10334074
+Europe & Central Asia,2013,10334074
 European Region (WHO),2013,10314674
 Fiji,2013,13059529
 Finland,2013,5763765
@@ -5408,7 +5408,7 @@ Poland,2013,11907334
 Portugal,2013,5758105
 Puerto Rico,2013,41111244
 Qatar,2013,7891685
-Region of the Americas (WHO),2013,8247352
+Region of the Americas,2013,8247352
 Romania,2013,11276877
 Russia,2013,14219592
 Rwanda,2013,10287153
@@ -5430,13 +5430,13 @@ Slovenia,2013,7146399
 Solomon Islands,2013,32783594
 Somalia,2013,833656
 South Africa,2013,9919727
-South Asia (WB),2013,11474708
+South Asia,2013,11474708
 South Korea,2013,6793002
 South Sudan,2013,60221706
 South-East Asia Region (WHO),2013,11339719
 Spain,2013,7339938
 Sri Lanka,2013,6021854
-Sub-Saharan Africa (WB),2013,59087482
+Sub-Saharan Africa,2013,59087482
 Sudan,2013,9869991
 Suriname,2013,7894007
 Sweden,2013,6470014
@@ -5466,13 +5466,13 @@ Vanuatu,2013,15860208
 Venezuela,2013,59311207
 Vietnam,2013,12146464
 Wales,2013,11086582
-Western Pacific Region (WHO),2013,12526328
+Western Pacific Region ,2013,12526328
 World,2013,10563609
 Yemen,2013,13536644
 Zambia,2013,8987374
 Zimbabwe,2013,14662584
 Afghanistan,2014,8072407
-African Region (WHO),2014,5745877
+African Region,2014,5745877
 Albania,2014,99051956
 Algeria,2014,8067648
 American Samoa,2014,12095537
@@ -5509,10 +5509,10 @@ Cape Verde,2014,29974974
 Central African Republic,2014,8797021
 Chad,2014,62910873
 Chile,2014,5119727
-China,2014,14284424
+People’s Republic of China,2014,14284424
 Colombia,2014,35820763
 Comoros,2014,616065
-Congo,2014,57869232
+Republic of the Congo,2014,57869232
 Cook Islands,2014,9182027
 Costa Rica,2014,43166553
 Cote d'Ivoire,2014,7102825
@@ -5520,14 +5520,14 @@ Croatia,2014,11522263
 Cuba,2014,107800865
 Cyprus,2014,8537209
 Czechia,2014,10308192
-Democratic Republic of Congo,2014,45730213
+Democratic Republic of Republic of the Congo,2014,45730213
 Denmark,2014,11552012
 Djibouti,2014,9084261
 Dominica,2014,45231476
 Dominican Republic,2014,9835121
-East Asia & Pacific (WB),2014,12131705
+East Asia & Pacific,2014,12131705
 East Timor,2014,125979744
-Eastern Mediterranean Region (WHO),2014,109856964
+Eastern Eastern Mediterranean Region ,2014,109856964
 Ecuador,2014,37906338
 Egypt,2014,12387764
 El Salvador,2014,28334652
@@ -5537,7 +5537,7 @@ Eritrea,2014,519849
 Estonia,2014,91338615
 Eswatini,2014,8036764
 Ethiopia,2014,22428495
-Europe & Central Asia (WB),2014,10149431
+Europe & Central Asia,2014,10149431
 European Region (WHO),2014,10130018
 Fiji,2014,12936763
 Finland,2014,56262943
@@ -5636,7 +5636,7 @@ Poland,2014,11398488
 Portugal,2014,55727173
 Puerto Rico,2014,3942874
 Qatar,2014,788924
-Region of the Americas (WHO),2014,8047013
+Region of the Americas,2014,8047013
 Romania,2014,11577605
 Russia,2014,14385231
 Rwanda,2014,1022952
@@ -5658,13 +5658,13 @@ Slovenia,2014,6661191
 Solomon Islands,2014,3291795
 Somalia,2014,82025505
 South Africa,2014,96990265
-South Asia (WB),2014,11374785
+South Asia,2014,11374785
 South Korea,2014,651461
 South Sudan,2014,59399887
 South-East Asia Region (WHO),2014,112163666
 Spain,2014,7238505
 Sri Lanka,2014,5815167
-Sub-Saharan Africa (WB),2014,57900745
+Sub-Saharan Africa,2014,57900745
 Sudan,2014,97281525
 Suriname,2014,8029079
 Sweden,2014,63343426
@@ -5694,13 +5694,13 @@ Vanuatu,2014,15695552
 Venezuela,2014,5710615
 Vietnam,2014,11940965
 Wales,2014,10598915
-Western Pacific Region (WHO),2014,1215203
+Western Pacific Region ,2014,1215203
 World,2014,10326608
 Yemen,2014,1335623
 Zambia,2014,87332016
 Zimbabwe,2014,14408315
 Afghanistan,2015,8137987
-African Region (WHO),2015,56463184
+African Region,2015,56463184
 Albania,2015,10141744
 Algeria,2015,7990002
 American Samoa,2015,12037199
@@ -5737,10 +5737,10 @@ Cape Verde,2015,29683193
 Central African Republic,2015,8652773
 Chad,2015,6160582
 Chile,2015,50072823
-China,2015,13854475
+People’s Republic of China,2015,13854475
 Colombia,2015,35489548
 Comoros,2015,60607704
-Congo,2015,57943867
+Republic of the Congo,2015,57943867
 Cook Islands,2015,9104339
 Costa Rica,2015,4351569
 Cote d'Ivoire,2015,6946272
@@ -5748,14 +5748,14 @@ Croatia,2015,117965096
 Cuba,2015,10967454
 Cyprus,2015,8460011
 Czechia,2015,10204478
-Democratic Republic of Congo,2015,44708614
+Democratic Republic of Republic of the Congo,2015,44708614
 Denmark,2015,11166385
 Djibouti,2015,906016
 Dominica,2015,45312717
 Dominican Republic,2015,10055526
-East Asia & Pacific (WB),2015,11837243
+East Asia & Pacific,2015,11837243
 East Timor,2015,125818405
-Eastern Mediterranean Region (WHO),2015,10914739
+Eastern Eastern Mediterranean Region ,2015,10914739
 Ecuador,2015,36804386
 Egypt,2015,12890208
 El Salvador,2015,28541368
@@ -5765,7 +5765,7 @@ Eritrea,2015,5078996
 Estonia,2015,8676312
 Eswatini,2015,7723688
 Ethiopia,2015,21998955
-Europe & Central Asia (WB),2015,10222682
+Europe & Central Asia,2015,10222682
 European Region (WHO),2015,102014114
 Fiji,2015,12796266
 Finland,2015,5498175
@@ -5864,7 +5864,7 @@ Poland,2015,11497421
 Portugal,2015,5418309
 Puerto Rico,2015,37271145
 Qatar,2015,8221501
-Region of the Americas (WHO),2015,7897307
+Region of the Americas,2015,7897307
 Romania,2015,113742
 Russia,2015,14017293
 Rwanda,2015,101843796
@@ -5886,13 +5886,13 @@ Slovenia,2015,6967336
 Solomon Islands,2015,32769363
 Somalia,2015,8098545
 South Africa,2015,949023
-South Asia (WB),2015,109495705
+South Asia,2015,109495705
 South Korea,2015,63053524
 South Sudan,2015,58760124
 South-East Asia Region (WHO),2015,10860967
 Spain,2015,72668396
 Sri Lanka,2015,54333965
-Sub-Saharan Africa (WB),2015,56851074
+Sub-Saharan Africa,2015,56851074
 Sudan,2015,9621923
 Suriname,2015,8061777
 Sweden,2015,6238131
@@ -5922,13 +5922,13 @@ Vanuatu,2015,15500241
 Venezuela,2015,56163124
 Vietnam,2015,117118034
 Wales,2015,10369152
-Western Pacific Region (WHO),2015,118408714
+Western Pacific Region ,2015,118408714
 World,2015,10161017
 Yemen,2015,134138
 Zambia,2015,85407036
 Zimbabwe,2015,14260486
 Afghanistan,2016,8162919
-African Region (WHO),2016,55174072
+African Region,2016,55174072
 Albania,2016,10176007
 Algeria,2016,78788826
 American Samoa,2016,1193548
@@ -5965,10 +5965,10 @@ Cape Verde,2016,298602
 Central African Republic,2016,8523632
 Chad,2016,60098606
 Chile,2016,48065666
-China,2016,13594312
+People’s Republic of China,2016,13594312
 Colombia,2016,348316
 Comoros,2016,5935836
-Congo,2016,57808525
+Republic of the Congo,2016,57808525
 Cook Islands,2016,9018671
 Costa Rica,2016,43946594
 Cote d'Ivoire,2016,6627956
@@ -5976,14 +5976,14 @@ Croatia,2016,11076265
 Cuba,2016,10815569
 Cyprus,2016,8200661
 Czechia,2016,9951164
-Democratic Republic of Congo,2016,4396883
+Democratic Republic of Republic of the Congo,2016,4396883
 Denmark,2016,1094613
 Djibouti,2016,8986193
 Dominica,2016,4508216
 Dominican Republic,2016,9974432
-East Asia & Pacific (WB),2016,11650058
+East Asia & Pacific,2016,11650058
 East Timor,2016,12580866
-Eastern Mediterranean Region (WHO),2016,10746809
+Eastern Eastern Mediterranean Region ,2016,10746809
 Ecuador,2016,36489296
 Egypt,2016,12921886
 El Salvador,2016,28570955
@@ -5993,7 +5993,7 @@ Eritrea,2016,49526863
 Estonia,2016,87129486
 Eswatini,2016,7445281
 Ethiopia,2016,21710932
-Europe & Central Asia (WB),2016,9966862
+Europe & Central Asia,2016,9966862
 European Region (WHO),2016,9945808
 Fiji,2016,12637998
 Finland,2016,54703697
@@ -6092,7 +6092,7 @@ Poland,2016,11236068
 Portugal,2016,54109142
 Puerto Rico,2016,37780296
 Qatar,2016,8054442
-Region of the Americas (WHO),2016,7801427
+Region of the Americas,2016,7801427
 Romania,2016,11317593
 Russia,2016,13662299
 Rwanda,2016,10103168
@@ -6114,13 +6114,13 @@ Slovenia,2016,68086555
 Solomon Islands,2016,3235441
 Somalia,2016,79929565
 South Africa,2016,9055918
-South Asia (WB),2016,10594815
+South Asia,2016,10594815
 South Korea,2016,61108555
 South Sudan,2016,57852875
 South-East Asia Region (WHO),2016,10569108
 Spain,2016,7110304
 Sri Lanka,2016,52069656
-Sub-Saharan Africa (WB),2016,55510303
+Sub-Saharan Africa,2016,55510303
 Sudan,2016,9497347
 Suriname,2016,7949636
 Sweden,2016,6142297
@@ -6150,13 +6150,13 @@ Vanuatu,2016,15301923
 Venezuela,2016,56460674
 Vietnam,2016,11507028
 Wales,2016,10056815
-Western Pacific Region (WHO),2016,116482376
+Western Pacific Region ,2016,116482376
 World,2016,9978585
 Yemen,2016,13418835
 Zambia,2016,8334326
 Zimbabwe,2016,14048824
 Afghanistan,2017,82048386
-African Region (WHO),2017,5402384
+African Region,2017,5402384
 Albania,2017,10211793
 Algeria,2017,7799113
 American Samoa,2017,11855638
@@ -6193,10 +6193,10 @@ Cape Verde,2017,30355593
 Central African Republic,2017,8414161
 Chad,2017,5876379
 Chile,2017,47840317
-China,2017,1327991
+People’s Republic of China,2017,1327991
 Colombia,2017,3397557
 Comoros,2017,5818807
-Congo,2017,579222
+Republic of the Congo,2017,579222
 Cook Islands,2017,889452
 Costa Rica,2017,42909367
 Cote d'Ivoire,2017,6409238
@@ -6204,14 +6204,14 @@ Croatia,2017,11025417
 Cuba,2017,11032011
 Cyprus,2017,7957384
 Czechia,2017,9834511
-Democratic Republic of Congo,2017,4354127
+Democratic Republic of Republic of the Congo,2017,4354127
 Denmark,2017,1073923
 Djibouti,2017,90062805
 Dominica,2017,4520949
 Dominican Republic,2017,9691068
-East Asia & Pacific (WB),2017,11416667
+East Asia & Pacific,2017,11416667
 East Timor,2017,12661218
-Eastern Mediterranean Region (WHO),2017,10542929
+Eastern Eastern Mediterranean Region ,2017,10542929
 Ecuador,2017,36118256
 Egypt,2017,12658846
 El Salvador,2017,28516928
@@ -6221,7 +6221,7 @@ Eritrea,2017,4837508
 Estonia,2017,8591696
 Eswatini,2017,7185831
 Ethiopia,2017,21472025
-Europe & Central Asia (WB),2017,9708687
+Europe & Central Asia,2017,9708687
 European Region (WHO),2017,9688654
 Fiji,2017,12505422
 Finland,2017,54644703
@@ -6320,7 +6320,7 @@ Poland,2017,11159322
 Portugal,2017,53513786
 Puerto Rico,2017,3789655
 Qatar,2017,789151
-Region of the Americas (WHO),2017,7626285
+Region of the Americas,2017,7626285
 Romania,2017,111814674
 Russia,2017,12686936
 Rwanda,2017,10058858
@@ -6342,13 +6342,13 @@ Slovenia,2017,6861112
 Solomon Islands,2017,32470602
 Somalia,2017,790322
 South Africa,2017,8701251
-South Asia (WB),2017,10401916
+South Asia,2017,10401916
 South Korea,2017,6052257
 South Sudan,2017,5693951
 South-East Asia Region (WHO),2017,10395115
 Spain,2017,7045032
 Sri Lanka,2017,501669
-Sub-Saharan Africa (WB),2017,54296467
+Sub-Saharan Africa,2017,54296467
 Sudan,2017,93777596
 Suriname,2017,7852533
 Sweden,2017,6084604
@@ -6378,13 +6378,13 @@ Vanuatu,2017,15100882
 Venezuela,2017,56635654
 Vietnam,2017,11319214
 Wales,2017,98046875
-Western Pacific Region (WHO),2017,114072784
+Western Pacific Region ,2017,114072784
 World,2017,9779038
 Yemen,2017,13532211
 Zambia,2017,8184266
 Zimbabwe,2017,13810446
 Afghanistan,2018,8215932
-African Region (WHO),2018,5262714
+African Region,2018,5262714
 Albania,2018,10234712
 Algeria,2018,7698617
 American Samoa,2018,11773416
@@ -6421,10 +6421,10 @@ Cape Verde,2018,3895048
 Central African Republic,2018,82989716
 Chad,2018,57612167
 Chile,2018,47221577
-China,2018,13044041
+People’s Republic of China,2018,13044041
 Colombia,2018,33344215
 Comoros,2018,56339703
-Congo,2018,5837825
+Republic of the Congo,2018,5837825
 Cook Islands,2018,8788931
 Costa Rica,2018,4257152
 Cote d'Ivoire,2018,63102314
@@ -6432,14 +6432,14 @@ Croatia,2018,108936165
 Cuba,2018,108943115
 Cyprus,2018,7957475
 Czechia,2018,9820699
-Democratic Republic of Congo,2018,43604954
+Democratic Republic of Republic of the Congo,2018,43604954
 Denmark,2018,10563458
 Djibouti,2018,9007643
 Dominica,2018,45474766
 Dominican Republic,2018,94272194
-East Asia & Pacific (WB),2018,112438805
+East Asia & Pacific,2018,112438805
 East Timor,2018,12738593
-Eastern Mediterranean Region (WHO),2018,103754814
+Eastern Eastern Mediterranean Region ,2018,103754814
 Ecuador,2018,35490498
 Egypt,2018,12615398
 El Salvador,2018,2830199
@@ -6449,7 +6449,7 @@ Eritrea,2018,4739804
 Estonia,2018,85044235
 Eswatini,2018,6983704
 Ethiopia,2018,21346695
-Europe & Central Asia (WB),2018,9612082
+Europe & Central Asia,2018,9612082
 European Region (WHO),2018,95922066
 Fiji,2018,12358429
 Finland,2018,5407001
@@ -6548,7 +6548,7 @@ Poland,2018,110914345
 Portugal,2018,5226523
 Puerto Rico,2018,37939472
 Qatar,2018,7670406
-Region of the Americas (WHO),2018,7557654
+Region of the Americas,2018,7557654
 Romania,2018,1104593
 Russia,2018,12462979
 Rwanda,2018,10112704
@@ -6570,13 +6570,13 @@ Slovenia,2018,6882005
 Solomon Islands,2018,32828064
 Somalia,2018,78351524
 South Africa,2018,7977427
-South Asia (WB),2018,10321774
+South Asia,2018,10321774
 South Korea,2018,59458218
 South Sudan,2018,5616208
 South-East Asia Region (WHO),2018,10314087
 Spain,2018,6879525
 Sri Lanka,2018,47158913
-Sub-Saharan Africa (WB),2018,52870453
+Sub-Saharan Africa,2018,52870453
 Sudan,2018,9295673
 Suriname,2018,7722235
 Sweden,2018,60457375
@@ -6606,13 +6606,13 @@ Vanuatu,2018,14933965
 Venezuela,2018,565698
 Vietnam,2018,11150391
 Wales,2018,9770298
-Western Pacific Region (WHO),2018,11232529
+Western Pacific Region ,2018,11232529
 World,2018,965941
 Yemen,2018,13672182
 Zambia,2018,8009067
 Zimbabwe,2018,13593979
 Afghanistan,2019,8174982
-African Region (WHO),2019,51500717
+African Region,2019,51500717
 Albania,2019,1026121
 Algeria,2019,76340706
 American Samoa,2019,11682009
@@ -6649,10 +6649,10 @@ Cape Verde,2019,37827686
 Central African Republic,2019,8170987
 Chad,2019,5610047
 Chile,2019,46542465
-China,2019,12964526
+People’s Republic of China,2019,12964526
 Colombia,2019,32612385
 Comoros,2019,55151295
-Congo,2019,58817886
+Republic of the Congo,2019,58817886
 Cook Islands,2019,86949905
 Costa Rica,2019,4139398
 Cote d'Ivoire,2019,6087198
@@ -6660,14 +6660,14 @@ Croatia,2019,10872878
 Cuba,2019,10383384
 Cyprus,2019,79797905
 Czechia,2019,96376976
-Democratic Republic of Congo,2019,43505833
+Democratic Republic of Republic of the Congo,2019,43505833
 Denmark,2019,103864006
 Djibouti,2019,898567
 Dominica,2019,45635048
 Dominican Republic,2019,9182342
-East Asia & Pacific (WB),2019,11173713
+East Asia & Pacific,2019,11173713
 East Timor,2019,127795166
-Eastern Mediterranean Region (WHO),2019,10205286
+Eastern Eastern Mediterranean Region ,2019,10205286
 Ecuador,2019,3414047
 Egypt,2019,125599045
 El Salvador,2019,28575129
@@ -6677,7 +6677,7 @@ Eritrea,2019,46405476
 Estonia,2019,8386902
 Eswatini,2019,6826797
 Ethiopia,2019,21235474
-Europe & Central Asia (WB),2019,9529919
+Europe & Central Asia,2019,9529919
 European Region (WHO),2019,9509855
 Fiji,2019,122227005
 Finland,2019,53673756
@@ -6776,7 +6776,7 @@ Poland,2019,11003857
 Portugal,2019,5163598
 Puerto Rico,2019,37559067
 Qatar,2019,7514275
-Region of the Americas (WHO),2019,74816574
+Region of the Americas,2019,74816574
 Romania,2019,108588066
 Russia,2019,12471015
 Rwanda,2019,10129474
@@ -6798,13 +6798,13 @@ Slovenia,2019,6885174
 Solomon Islands,2019,3287783
 Somalia,2019,7721544
 South Africa,2019,7537751
-South Asia (WB),2019,10052887
+South Asia,2019,10052887
 South Korea,2019,59385567
 South Sudan,2019,55162056
 South-East Asia Region (WHO),2019,1008099
 Spain,2019,6755731
 Sri Lanka,2019,4613525
-Sub-Saharan Africa (WB),2019,51686256
+Sub-Saharan Africa,2019,51686256
 Sudan,2019,91951225
 Suriname,2019,75183876
 Sweden,2019,5960445
@@ -6834,7 +6834,7 @@ Vanuatu,2019,14766583
 Venezuela,2019,5888356
 Vietnam,2019,10989056
 Wales,2019,97482414
-Western Pacific Region (WHO),2019,11174192
+Western Pacific Region ,2019,11174192
 World,2019,9560785
 Yemen,2019,1372956
 Zambia,2019,7831611
