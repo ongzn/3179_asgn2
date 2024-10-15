@@ -60,7 +60,7 @@
           "as": "Mortality per 10k population"
         },
         {
-          "calculate": "format(datum['Mortality per 10k population'], '.0f') + ' molarity per 10,000 population'",
+          "calculate": "format(datum['Mortality per 10k population'], '.0f') + ' mortality per 10,000 population'",
           "as": "Formatted Mortality"
         }
       ],
@@ -79,6 +79,23 @@
           {"field": "properties.NAME_EN", "type": "nominal", "title": "Country"},
           {"field": "Formatted Mortality", "type": "nominal", "title": "Smoking Mortality"}
         ]
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.properties.NAME == 'Indonesia'"},
+        {
+          "calculate": "split('Cigarettes in Indonesia are among\\nthe cheapest in the world. \\n They are easily accessible to people \\n of all income levels, including teenagers. \\n It also leads to sustained addiction.', '\\n')",
+          "as": "annotationText"
+        },
+        {"calculate": "100", "as": "longitude"},
+        {"calculate": "-15", "as": "latitude"}
+      ],
+      "mark": {"type": "text", "align": "center", "dx": 5, "dy": -5, "fontSize": 10, "color": "black", "fontWeight": "bold"},
+      "encoding": {
+        "text": {"field": "annotationText"},
+        "longitude": {"field": "longitude"},
+        "latitude": {"field": "latitude"}
       }
     }
   ]
