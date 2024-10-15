@@ -16,20 +16,18 @@
         "as": "SmokingStatus"
       },
       {
-        "calculate": "datum['Cholesterol'] > 240 ? 1 : 0",
-        "as": "HighCholesterolCount"
+        "calculate": "datum['Cholesterol'] > 240 ? 'Yes' : 'No'",
+        "as": "HasHighCholesterol"
       },
       {
-        "calculate": "datum.HighCholesterolCount == 1 ? 2 : 1",
-        "as": "AdjustedCholesterolCount"
+        "aggregate": [{"op": "count", "as": "CholesterolCount"}],
+        "groupby": ["SmokingStatus", "Sex", "HasHighCholesterol"]
       },
       {
-        "aggregate": [{"op": "sum", "field": "AdjustedCholesterolCount", "as": "HighCholesterolTotal"}],
-        "groupby": ["SmokingStatus", "Sex"]
-      },
-      {
-        "calculate": "ceil(datum.HighCholesterolTotal / 2)",
-        "as": "CholesterolDisplay"
+        "impute": "CholesterolCount",
+        "key": "SmokingStatus",
+        "groupby": ["Sex", "HasHighCholesterol"],
+        "value": 0
       }
     ],
     "mark": "rect",
@@ -45,17 +43,19 @@
         "title": "Sex"
       },
       "color": {
-        "field": "CholesterolDisplay",
+        "field": "CholesterolCount",
         "type": "quantitative",
-        "title": "Number of Cholesterol > 240",
+        "title": "Number of People",
         "scale": {
-          "scheme": "purples"
+          "scheme": "purples",
+          "domainMin": 0
         }
       },
       "tooltip": [
-        {"field": "CholesterolDisplay", "type": "quantitative", "title": "Number of Cholesterol > 240"},
+        {"field": "CholesterolCount", "type": "quantitative", "title": "Number of People"},
         {"field": "SmokingStatus", "type": "nominal", "title": "Smoking Status"},
-        {"field": "Sex", "type": "nominal", "title": "Sex"}
+        {"field": "Sex", "type": "nominal", "title": "Sex"},
+        {"field": "HasHighCholesterol", "type": "nominal", "title": "Has Cholesterol > 240"}
       ]
     }
   }

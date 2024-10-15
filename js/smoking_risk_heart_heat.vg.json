@@ -16,16 +16,18 @@
       "as": "SmokingStatus"
     },
     {
-      "calculate": "datum['Heart Attack Risk'] == 1 ? 2 : 1",
-      "as": "AdjustedHeartAttackCount"
+      "calculate": "datum['Heart Attack Risk'] == 1 ? 'Yes' : 'No'",
+      "as": "HasHeartAttackRisk"
     },
     {
-      "aggregate": [{"op": "sum", "field": "AdjustedHeartAttackCount", "as": "HeartAttackTotal"}],
-      "groupby": ["SmokingStatus", "Sex"]
+      "aggregate": [{"op": "count", "as": "HeartAttackCount"}],
+      "groupby": ["SmokingStatus", "Sex", "HasHeartAttackRisk"]
     },
     {
-      "calculate": "ceil(datum.HeartAttackTotal / 2)",
-      "as": "HeartAttackDisplay"
+      "impute": "HeartAttackCount",
+      "key": "SmokingStatus",
+      "groupby": ["Sex", "HasHeartAttackRisk"],
+      "value": 0
     }
   ],
   "mark": "rect",
@@ -41,17 +43,19 @@
       "title": "Sex"
     },
     "color": {
-      "field": "HeartAttackDisplay",
+      "field": "HeartAttackCount",
       "type": "quantitative",
       "title": "Number of Heart Attacks",
       "scale": {
-        "scheme": "browns"
+        "scheme": "browns",
+        "domainMin": 0
       }
     },
     "tooltip": [
-      {"field": "HeartAttackDisplay", "type": "quantitative", "title": "Number of Heart Attacks"},
+      {"field": "HeartAttackCount", "type": "quantitative", "title": "Number of Heart Attacks"},
       {"field": "SmokingStatus", "type": "nominal", "title": "Smoking Status"},
-      {"field": "Sex", "type": "nominal", "title": "Sex"}
+      {"field": "Sex", "type": "nominal", "title": "Sex"},
+      {"field": "HasHeartAttackRisk", "type": "nominal", "title": "Heart Attack Risk"}
     ]
   }
 }
