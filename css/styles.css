@@ -33,7 +33,7 @@ html, body {
 
 h1 {
     font-family: var(--font-secondary);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     background-color: var(--navy-color);
     color: var(--white-color);
