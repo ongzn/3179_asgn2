@@ -56,8 +56,9 @@ p {
     font-family: var(--font-tertiary);
     font-size: 18px;
     color: var(--text-color);
-    text-align: center;
-    margin: 50px 200px;
+    text-align: justify;
+    margin: 20px auto; /* This centers the paragraph horizontally */
+    max-width: 500px; /* Width of the paragraph */
 }
 
 .visualization-container {
@@ -113,3 +114,17 @@ input[type="range"] {
     margin-top: 10px;
 }
 
+.copyright-section {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.copyright {
+    font-family: var(--font-tertiary);
+    font-size: 18px;
+    color: var(--text-color);
+    text-align: center; /* Center the text */
+    max-width: 500px;
+    margin: 0 auto; /* Center the block horizontally */
+}

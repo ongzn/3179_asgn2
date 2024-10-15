@@ -20,11 +20,15 @@
         "as": "HighCholesterolCount"
       },
       {
-        "aggregate": [{"op": "sum", "field": "HighCholesterolCount", "as": "HighCholesterolTotal"}],
+        "calculate": "datum.HighCholesterolCount == 1 ? 2 : 1",
+        "as": "AdjustedCholesterolCount"
+      },
+      {
+        "aggregate": [{"op": "sum", "field": "AdjustedCholesterolCount", "as": "HighCholesterolTotal"}],
         "groupby": ["SmokingStatus", "Sex"]
       },
       {
-        "calculate": "datum.HighCholesterolTotal == null ? 0 : datum.HighCholesterolTotal",
+        "calculate": "ceil(datum.HighCholesterolTotal / 2)",
         "as": "CholesterolDisplay"
       }
     ],
